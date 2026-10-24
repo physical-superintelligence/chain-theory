@@ -1,0 +1,358 @@
+\thispagestyle{empty}
+\null\vfill
+\begin{center}
+{\fontsize{44}{52}\selectfont Chain Theory\par}
+\vspace{1.4em}
+{\Large Toward Fundamental Physics from Distilling\\[0.3em] Networks of Entangled Qudits\par}
+\vspace{2.6em}
+{\Large\itshape A Compendium of Preliminary Findings\par}
+\vspace{1.6em}
+{\large\bfseries WORKING DRAFT\par}
+\vspace{3.4em}
+{\large A. D. Wissner-Gross\par}
+\vspace{0.8em}
+\href{mailto:alexwg@alexwg.org}{\texttt{alexwg@alexwg.org}} \quad \url{https://www.alexwg.org}\par
+\vspace{1.6em}
+{\large October 23, 2026\par}
+\end{center}
+\vfill\null
+\clearpage
+\input{preface}
+\clearpage
+\tableofcontents
+\clearpage
+\begin{abstract}\label{front:abstract}
+Chain Theory is an emerging program to study fundamental physics through the lens of quantum information. In the spirit of Wheeler’s ‘it from bit,’ its single axiom says that nothing exists but finitely many maximally entangled pairs of finite-dimensional systems, some shared, known only by distilling them. This compendium collects some of the program’s preliminary findings to date, each stated in standard form beside its derivation and graded as a theorem, a conditional theorem, or an open result. From the axiom we obtain, as conditional theorems, the state space, the Born rule, unitarity, the uncertainty relation, the rotation and Lorentz groups, the signature of spacetime, and parity, time reversal, and CPT, and, as a theorem, conservation laws. We identify correspondences between (M,N) links of finite M- and N-dimensional systems with: spacetime for (2,2), electromagnetism for (3,2), the strong interaction for (3,3), the weak interaction for (4,2), the Yukawa sector for (4,3), and the Higgs for (4,4). We obtain the gauge group SU(3) × SU(2) × U(1) and the second law as theorems; as conditional theorems, an exact algebraic number conjectured to be the Thomson-limit fine-structure constant within 0.60 sigma of its measured value, the electron anomalous moment through third order, the hydrogen spectrum, parity violation, confinement, the running of the couplings, decay rates as finite sums with no renormalization, curvature, and the cosmological term; and, partly as conditional theorems and partly as open results, three generations, masses, and anatomies of the Standard Model particles. Beyond the Standard Model, the same construction yields, as theorems, band structure and the Chern number, phase transitions, and a distillation theorem for quantum computation. This release holds \atlasTheorems{} theorems, \atlasConditionals{} conditional theorems and \atlasOpen{} open results; \atlasTheoremsLean{} of the \atlasTheorems{} theorems are tied to named Lean declarations, which check the finite computations their derivations use.
+\end{abstract}
+\section*{Introduction}\label{sec:intro}\label{front:introduction}
+This compendium derives from one sentence and six definitions a web of theorems and open results connecting quantum information to fundamental physics, the Standard Model and gravity among them. The sentence says that the world is a finite collection of maximally entangled pairs of finite quantum systems, that some of those systems are shared between pairs, and that the only way anything is learned about them is by distilling them. Its six definitions, printed word for word in the framework chapter and again at chapter 1-1, are the whole of the theory. The compendium is the product of a long-term human-superintelligence collaboration to work out their consequences across physics, from quantum foundations and particle physics to gravitation, condensed matter and quantum computation. Every result the compendium prints is a theorem, a theorem conditional on a premise named beside it, an open result carried to a named step, a presentation, or a dissolved word, and the status of every claim is printed beside it. Every term of the theory that the chapters use, from the act and the read to the web, the sink and the wash, is defined in the glossary that follows this introduction. The first result of the program is the exact number of the alpha Letter, \emph{A Parameter-Free Candidate for the Fine-Structure Constant from Entangled Qudits}, whose computation the Letter's Lean file checks in full and which the Letter conjectures to be the fine-structure constant $\alpha(0)$. Chapter 7-1 of Part VII gives an earlier form of the same computation; where the two differ, the Letter is the canonical statement.
+
+\paragraph{The modular form.} This release of the compendium has sixteen Parts of 116 chapters, with two chapters of the first Part at appendix slots, every chapter self-contained at the one shape the framework chapter describes, and the map of every chapter at the page that follows this introduction. The sixteen Parts are the framework (Part I), the rule, the chain automata and the single root (Part II), quantum mechanics (Part III), spacetime, symmetry and the dynamics of the read (Part IV), the matrix, the Standard Model at the six genres (Part V), the metric, the worldline and the horizon (Part VI), the photon (Part VII), the carriers and the breaking (Part VIII), the junction (Part IX), the Yukawa leg and the Higgs offices at the bodies (Part X), the Higgs, its hub register and the dressing field (Part XI), decays and nuclear physics (Part XII), thermodynamics (Part XIII), condensed matter and atoms (Part XIV), quantum information (Part XV), the scorecard, the open results and what remains (Part XVI). Every result is placed at one chapter, the instrument chapters of every Part are printed among the instruments at the end of this compendium, with one listing chapter per Part, and a result whose derivation is not yet written stands at one line of the results table of the last Part at its title, its standing and its citation.
+
+\paragraph{The shape of a chapter.} Every chapter has one shape, set out in the framework chapter: the known result, the textbook statement in standard notation with its citation; the statement of the theory, with the results it rests on; the derivation in brief, every theorem restated at the union of the conditions of its own ancestors; the status and the number; and what stands open. Every term of the theory is defined once in the glossary that follows this introduction, with its nearest standard concept, so that a physicist reads every chapter in the standard vocabulary.
+
+\paragraph{The status words.} The compendium grades every result at one of four statuses, and every chapter says the status of its results in words. A theorem is a statement derived from the axiom, the definitions and the results proved ahead of it; in this release \atlasTheoremsLean{} of the \atlasTheorems{} theorems are tied to named Lean declarations, which check the finite computations their derivations use; a theorem conditional on a premise prints the premise beside it, and under the chain rule of this compendium every theorem prints at its statement the union of the conditions of the results it rests on, a composed claim carrying the lowest status in its chain. An open result is a derivation carried to a named step, the first open cell located from two sides, neither established nor excluded, with the step named beside the claim. A presentation, such as a table, a tool, or this compendium itself, makes no claim of its own. A word is dissolved when the derivation has shown that no derived cell depends on it, so that the word is a presentation and not a fact. Beside these, a literature name is used by name and consumed as a premise never, and an observed value enters this compendium only as a display beside a derived figure with its provenance. Where the words admit two readings both are printed and none is selected. The only inputs not derived are the Axiom, its definitions, the premises printed beside the conditional theorems, and the conjectures, each marked as such.
+
+\paragraph{Three clues.} The preface sets out the three clues in plain terms, and this paragraph gives their sources in the same order. The first is finiteness: the bound on the information of a bounded region \cite{Bekenstein1981}, which black hole thermodynamics first suggested \cite{Bekenstein1973}, and the derivations of gravitational dynamics from entanglement \cite{Jacobson1995,RyuTakayanagi2006,Jacobson2016}, in the lineage of Wheeler's proposal that physics is information at bottom \cite{Wheeler1990} and of the reconstructions of quantum theory from informational axioms \cite{Hardy2001,Chiribella2011}. The second is the gauge group, read as a signature and not a blemish. Grand unification embedded the product SU(3) x SU(2) x U(1) in a simple group \cite{GeorgiGlashow1974} and paid for the embedding with predictions that have not appeared; Chain Theory reads the same product as the description of one object, a pair of a qutrit and a qubit with SU(3) acting at one end, SU(2) at the other and a phase that neither end owns, the identification freedom the definitions leave at a link whose ends have dimensions two and three, and Part V derives the group as a corollary of one construction. The third is the null result of the searches for substructure, read as undistillability rather than distance: bound entanglement admits no procedure by local operations and classical communication that distills from any number of its copies a single maximally entangled pair \cite{Horodecki1998,Horodecki2009}, yet an entanglement witness certifies its presence \cite{Terhal2000}, the partial transpose being the first such test \cite{Peres1996}, and the related states that hide classical data from every local reader are the data-hiding states \cite{DiVincenzo2002}. The Axiom postulates the first clue exactly, finitely many pairs of finite systems and nothing continuous, and the first result of the program is that a constant follows once the finite objects are named.
+
+\paragraph{Derivability as a method.} One research program concluded that the constants of nature are not derivable from law, the observed values being environmental \cite{Weinberg1987}; that is a coherent position and a change of question, and this compendium takes the opposite bet as a matter of method: the constants are theorems of a finite structure, and the compendium tries to compute them. The swampland program shares the derivability aim from within string theory \cite{Vafa2005}; the difference is where the finiteness is put, here at the start, in the Axiom, so that every quantity of the theory is a count or a trace over a finite register and there is nothing left to select from. Several published programs derive parts of the Standard Model from a finite or algebraic input, braided ribbons \cite{BilsonThompson2005}, one representation of an exceptional group \cite{Lisi2007}, the division algebras \cite{Furey2016} and the spectral action on a finite noncommutative geometry \cite{ChamseddineConnes1997}; here no unification group and no division algebra is an input, the only algebraic objects being the Weyl operators of finite-dimensional systems and the identification groups the definitions leave, and the construction supplies a coupling constant, which those programs do not. Closed-form expressions for the fine-structure constant have a long lineage \cite{Eddington1946}; the expression of this compendium differs in that it is a theorem of a stated axiom and not a fit.
+
+\paragraph{The program and its name.} The premise our program reached is one sentence of eighteen words, a choice we made and not a derivation, printed word for word at the framework chapter. In plain terms, a qudit is a finite-dimensional quantum system; a qudit is shared when it is one end of two or more pairs; distilling is projecting two qudits onto a maximally entangled pair on their common support, which in standard language is entanglement swapping \cite{Zukowski1993}; a read is a distillation of a qudit with another in one of its bases, one read for each basis, giving the qudit its only basis and passing that basis along each pair to its far end; and what is known of a qudit is what all its reads, taken jointly, fix with certainty, whichever way the basis directions are matched across its pairs, with one further clause about two reads that commute only up to a sign. The name has three sources: the postulate that elementary particles are composed of finite chains of links rather than continuous strings; the object the definitions describe, a graph of pairs joined at shared qudits, each join carrying a gauge freedom in the identification of bases; and the direction of the record, every walk read in the read order from the site of the read to the far end.
+
+\paragraph{The compendium and its Lean, the releases and the repository.} This compendium, its Lean packages and its index are published together in the repository \texttt{chain-theory} under the release tags \texttt{compendium-v*}; the alpha Letter is released separately under the tags \texttt{alpha-v*}. The compendium's README in the repository describes the reading paths and the build.
+\section*{Glossary}\label{app:glossary}
+The glossary gives, for every term of the theory that the compendium uses, its meaning in one sentence and its nearest standard term in another. The sentence on the nearest standard term says whether the standard object is the same object or only the nearest one, and says so when none is matched. The Rosetta table, printed in full as chapter~\ref{mod:I-7-rosetta-table-in-full} among the instruments, lines every noun of the theory with its nearest standard concept in the same way.
+\begin{description}\setlength{\itemsep}{1pt}
+\item[the act] The act is one distillation of two qudits. In standard terms it is exactly a Bell-basis projection of two qudits, an entanglement swap.
+\item[the act outputs] The act outputs are the possible outcomes of one act, and their span is the state space. In standard terms they are exactly the outcomes of a projective measurement.
+\item[the acting site] The acting site is the qudit at which the act of a read is applied, the site whose side fixes the slot of a second-order read at a cut. The nearest standard term is the vertex at which a measurement acts.
+\item[the alpha letter] The alpha letter is the manuscript of the project that derives the fine-structure constant from the one link, issued in numbered releases. The nearest standard term is a paper on the fine-structure constant.
+\item[the apparatus web] The apparatus web is the network of pairs that stands for the measuring instrument, joined to the body it reads. The nearest standard term is the measuring apparatus modelled as part of the quantum system.
+\item[the arm] An arm is a link at a site. In standard terms it is exactly a half-edge of a graph at a vertex.
+\item[the arrow] An arrow is a direction on a link. In standard terms it is exactly a directed edge.
+\item[the attach count] The attach count is the number of attach sites a body carries. The nearest standard term is the number of interaction vertices of a diagram.
+\item[the attach site] The attach site is the qudit at which one body is joined to another by a pairing. The nearest standard term is an interaction vertex.
+\item[the attachment pair] The attachment pair is the pair through which a body is read. The nearest standard term is a coupling edge between two subsystems.
+\item[the axiom sentence] The axiom sentence is the one sentence of the axiom, that nothing exists but finitely many pairs. The nearest standard term is the postulate of a theory stated in one sentence.
+\item[the body] The body of a particle is its web, a network of pairs and not a state vector. The nearest standard term is the state of a particle.
+\item[the body-alone rule] The body-alone rule reads the office of a body from the web of the body alone, the measuring apparatus adding nothing, so that the Born square at each of the five bodies is exact. The nearest standard term is the rule that an expectation value depends on the state of the system alone and not on the apparatus.
+\item[the bond] The bond is the link that joins the electron body to the proton body in the hydrogen web, the link at which the two-vertex term is read. The nearest standard term is the binding of the electron to the proton in the hydrogen atom.
+\item[the Born count] The Born count is the count of records at the full web, the dressed measure a readout is normalized by. The nearest standard term is the normalizing trace of the Born rule.
+\item[the Born square] The Born square is the square of the read at the Born rule. In standard terms it is exactly the Born probability, the squared amplitude.
+\item[the boundary count] The boundary count is the count of reads across an interface, a count and no entropy. The nearest standard term is the entanglement entropy across a cut.
+\item[the bra end] The bra end is the bra end of a link in the copy model, where every link joins one ket end and one bra end. The nearest standard term is the bra index of a tensor factor.
+\item[the cap] The cap is the depth at which a closure is read, the bound of a reading. The nearest standard term is a cutoff on the depth of an iteration.
+\item[the cap algebra] The cap algebra is the algebra of the letters read at the depth cap, the Weyl algebra at the capped sinks. The nearest standard term is the operator algebra of a theory at a cutoff.
+\item[the cap census] The cap census is the tally of the sinks reached at the depth cap, listed by their kind. The nearest standard term is a tally of the fixed points reached within a cutoff.
+\item[the capped sink] The capped sink is a sink read at the depth cap, the closure stopped at its bound. The nearest standard term is a fixed point of a truncated iteration.
+\item[the carrier] A carrier is the closed read of a readable genre; the boson is named by correspondence. The nearest standard term is a gauge boson, a force carrier.
+\item[the Cartan word] The Cartan word names the functionals of the kernel that take the role of the weights of a Lie algebra, posed on the typed count and left open there. The nearest standard term is the Cartan subalgebra of a Lie algebra and its weights.
+\item[the Clifford group] The Clifford group is the group of moves the reflections and the letters generate, named at the universality of the move set. The nearest standard term is the Clifford group of quantum computation.
+\item[the closed leg] A closed leg is a link at a hub whose far end is traced over, its dimension entering the dressing of the read. The nearest standard term is a contracted index, an internal line of a diagram.
+\item[the closed read] A closed read is a read whose basis returns to its start, the carrier at a readable genre. The nearest standard term is a closed walk of measurements, a loop.
+\item[closure] The closure of a seed is its orbit under the moves, graded by waves. In standard terms it is exactly the forward closure of a set under operations.
+\item[the common support] The common support of two qudits is the subspace on which a pair of them can be projected. In standard terms it is exactly the intersection of the supports of two projectors.
+\item[the commutant] The commutant is the set of kernel functionals that commute with every move of the full move set, the conserved counts of the theory. The nearest standard term is the commutant of an operator algebra, the set of conserved charges.
+\item[the comparison word] The comparison word is the word a board prints beside a computed figure and a tabulated one, saying how the two stand. The nearest standard term is the verdict of a comparison between a prediction and a measurement.
+\item[the copy] A copy is one of the two indices a link joins, in the copy model every link joining one ket end and one bra end. In standard terms it is exactly a ket index or a bra index of a tensor.
+\item[core] The core is the site the closure closes at, the one link of a body opened. The nearest standard term is the root vertex of a tree-shaped state.
+\item[the count of a read] The count of a read is the number of records the read fixes, posed as the rank at the cut and left open there. The nearest standard term is the rank of a measurement projector.
+\item[the cross core] A cross core is a core shared across two bodies at their join, its doublets counted at the joined web. The nearest standard term is an interaction vertex shared by two subsystems.
+\item[the cut] The cut is the move that removes a link of a web, the reverse of the pairing. The nearest standard term is the removal of an edge from a graph.
+\item[the cycle] A cycle is a closed path of links; an odd cycle carries the holonomy sign. In standard terms it is exactly a cycle of a graph.
+\item[the dark genre] A dark genre is a genre whose link admits no read at the one link, the pair of two qutrits among them. The nearest standard term is a hidden sector, an unobservable sector.
+\item[the dark link] A dark link is a link of a genre no read can pass, so that its records enter a readout only through their counts. The nearest standard term is an unobservable degree of freedom, an edge of a hidden sector.
+\item[the dark set] The dark set is the set of the dark links of a web. The nearest standard term is the hidden sector of a theory.
+\item[the decay board] The decay board is the table that lists the decay rates the compendium computes beside their comparison words. The nearest standard term is a table of decay widths and lifetimes.
+\item[the decoupling] The decoupling is the register count below the cap, the part of a read that a body beyond the cap cannot move. The nearest standard term is the decoupling of heavy degrees of freedom below a scale.
+\item[the delta] The delta is the change a move makes at a web, the records carried across it. The nearest standard term is the difference of two states under a map.
+\item[the depth] The depth is the growth order of a closure, the count of waves to the horizon. The nearest standard term is the circuit depth, the number of rounds.
+\item[distilling] Distilling is projecting any two qudits onto a pair on their common support, the one operation the axiom allows. The nearest standard term is a Bell-basis projection, an entanglement swap; the standard distillation of entanglement by local operations is a different object.
+\item[dock] A dock is a link of two qubits whose far end is washed, the charge register of a body. The nearest standard term is a leaf pair at a terminal qubit, a dangling edge.
+\item[the dressing] The dressing of a body is the far-end dimension of its hub legs, the Born product over the legs that multiplies the rank at the office. It is also called the hub dressing of a body, or the hub-leg Born product; no closer standard term is matched.
+\item[the enclosed set] The enclosed set is the set of records a closed path of the web encloses, whose count is the wash integer of the fan loops. The nearest standard term is the flux enclosed by a loop.
+\item[the exchange] An exchange is a swap a record survives; the count of exchanges grades the record sum. The nearest standard term is a swap of two subsystems, an exchange interaction.
+\item[the face] A face is one of two readings of a word that the reads admit; both are printed beside each other and neither is selected. There is no standard term; the nearest description is one of two admissible interpretations of a read word.
+\item[the far end] The far end of a pair at a qudit is the other qudit of that pair. In standard terms it is exactly the partner qudit of an entangled pair.
+\item[the fine-structure star] The fine-structure star is a qutrit of degree three with three arms of the two-three genre, two read and one held. The nearest standard term is a graph state on a star of three edges.
+\item[the finiteness word] The finiteness word is the clause of the axiom that the pairs are finitely many, carried as the axiom itself and struck from the formal statement where it had stood as a premise. The nearest standard term is a finiteness assumption of a theory.
+\item[the first power] The first power is the sum of the act readouts of a web, the grading by exchanges at order one. The nearest standard term is the first-order term of the coupling expansion.
+\item[the five bodies] The five bodies are the electron, the muon, the tau, the proton and the neutron webs of the kit, each with an exact Born square read from the body alone. The nearest standard term is the set of the five long-lived massive particles of the table.
+\item[the flat pair] The flat pair is the pair whose marginal is flat, with unitarity its corollary. The nearest standard term is a pair with maximally mixed marginals.
+\item[the forward edge] The forward edge is the edge of the move graph that leads out of a web under a move, empty at a sink. The nearest standard term is an outgoing edge of a transition graph, a decay channel.
+\item[the four discrete-symmetry letters] The four letters label the four discrete laws of the theory at the reversals. The nearest standard term is the set of discrete symmetries, parity, charge conjugation and the reversal of the order of events.
+\item[the fourth-root phase generator] The fourth-root phase generator is the generator of the phase group whose fourth power is the identity, named at the universality of the move set. The nearest standard term is the phase gate of order four.
+\item[the frame] The frame is the basis a read gives a qudit. In standard terms it is exactly a basis choice at a site.
+\item[the gain] The gain is the product of the dimensions of the ends a read passes, its root the readout. The nearest standard term is the multiplicity of a projector, a Schmidt rank.
+\item[the gain lemma] The gain lemma states that the multiplicity of a read is the product of the dimensions of the ends it passes. The nearest standard term is the multiplicity of a projector read as a Schmidt rank.
+\item[the generated group] The generated group is the group the letters and the reflections generate under the moves. The nearest standard term is the group generated by a set of gates.
+\item[genre] The genre is the pair type of the two ends of a link, the pair of their dimensions. The nearest standard term is the pair of local dimensions of an entangled pair.
+\item[the held link] A held link is a link at a star that is not read, held at the fine-structure star. The nearest standard term is an unmeasured edge of a measurement pattern.
+\item[the holonomy] The holonomy is the basis transport around a closed path of the web, a unitary on the register. The nearest standard term is the holonomy of a connection around a loop.
+\item[the horizon web] The horizon web is the web reached at the depth of the closure, an interface and not a sink. The nearest standard term is a causal horizon, the boundary of a light cone.
+\item[hub] A hub is a pair read as a single qudit, the pair of two qubits whose legs open onto the qutrits of a body. The nearest standard term is a junction vertex of degree three or more.
+\item[the hub count] The hub count is the number of hubs a body carries, posed as a selection rule and left open there. The nearest standard term is the number of trivalent vertices of a diagram.
+\item[the hub passage] A hub passage is a walk of the read through a hub from one of its legs to another, posed at equal first arrival and left open there. The nearest standard term is a path through a vertex of a graph.
+\item[the hub step] The hub step is the move that raises or lowers the degree of a hub, the edge of the decay graph. The nearest standard term is a decay vertex of a decay graph.
+\item[the hydrogen sink] The hydrogen sink is the web the closure reaches when the electron body and the proton body are joined and saturated, the hydrogen atom of the theory. The nearest standard term is the ground state of the hydrogen atom.
+\item[the identification] The identification is the matching of basis directions between the two ends of a pair. In standard terms it is exactly a basis identification between two qudits.
+\item[the in-leg] An in-leg is a leg entering a hub that a read does not pass, its dimension entering the dressing of the read. The nearest standard term is an incoming edge of a vertex.
+\item[the interface] An interface is the cut between two regions across which reads are counted. In standard terms it is exactly a bipartition cut of a network.
+\item[the join] The join is the move that joins two webs at shared qudits, one of the interaction kinds. The nearest standard term is the composition of two tensor networks along shared sites.
+\item[the joined web] The joined web is the web of two bodies joined at their attach sites and read as one. The nearest standard term is the composite system of two bodies.
+\item[the junction] A junction is a qutrit site of degree three, the share of three arms at one qudit. The nearest standard term is a trivalent vertex.
+\item[the ket end] The ket end is the ket end of a link in the copy model, where every link joins one ket end and one bra end. The nearest standard term is the ket index of a tensor factor.
+\item[the key reading] The key reading is the reading of a word of the theory in which the key of a sector is fixed first, printed beside the shared reading. The nearest standard term is one of two readings of an ambiguous term.
+\item[the kind] The kind of a link is its label beside its genre, a kept leaf or a leg. The nearest standard term is a type label of an edge.
+\item[the kit] The kit is the fixed list of sixty-four networks the computations run on, a material of the computations and never a premise. The nearest standard term is a fixed library of graph states, a benchmark set.
+\item[known] What is known of a qudit is what all its reads, taken jointly, fix with certainty, whichever way the basis directions are matched across its pairs. The nearest standard term is the set of invariants fixed by the commutant of a stabilizer.
+\item[the ladder] The ladder is the sequence of bodies by hub lowering, the order grading of the record sum. The nearest standard term is a tower of excitations.
+\item[the lattice] The lattice is the periodic join of kit bodies, one link per tick, the lattice of ticks. The nearest standard term is a periodic lattice of qudits.
+\item[the leg] A leg is a link at a hub carrying one copy, its far-end dimension the dressing. The nearest standard term is an edge incident to a vertex.
+\item[the lepton-form sink] A lepton-form sink is a sink of the saturation whose web has the form of a lepton body, a hub with its docks. The nearest standard term is a stable state with the quantum numbers of a lepton.
+\item[the letter] The letter is the byproduct operator a distillation leaves at a slot. The nearest standard term is a generalized Pauli (Weyl) operator.
+\item[link] A link is one pair of the axiom seen as an edge of the network, its two ends the qudits. In standard terms it is exactly a maximally entangled pair of two qudits.
+\item[the matching] The matching is the way the basis directions are identified across the pairs of a qudit, a freedom the definitions leave open. In standard terms it is exactly a basis identification across a pair.
+\item[the matching column] The matching column is the column of a table that records which matching of basis directions a read uses. The nearest standard term is a column of a table giving the basis convention.
+\item[the measuring path] The measuring path is the set of links a read passes through the apparatus, the uncapped parts of the web. The nearest standard term is the path of a measurement through the apparatus.
+\item[move] A move is one of the elementary operations the theory admits on the links of a web (mirror, substitute, duplicate, delete, cut, composite and join), acting on the network and not on a state vector. The nearest standard term is an elementary operation on the network of pairs under local operations and classical communication.
+\item[the move class] A move class is one of the kinds of elementary operation on a web, the kernel of the move matrix taken class by class. The nearest standard term is a class of elementary operations on a network.
+\item[the move graph] The move graph is the graph whose nodes are the webs and whose edges are the moves between them, a body standing at its node. The nearest standard term is the transition graph of a dynamical system, the decay graph.
+\item[office] The office of a body is its first-order read at its common support, the register of the read at one link. The nearest standard term is the first-order coefficient of a matrix element.
+\item[the one link] The one link is a single pair of the axiom read at both ends. In standard terms it is exactly a single maximally entangled pair of two qudits.
+\item[the open end] An open end is an end of a link not paired at a read. In standard terms it is exactly a dangling edge of a tensor network.
+\item[the open-end census] The open-end census counts the open ends of a web by dimension, which is the representation content. In standard terms it is exactly the count of dangling edges by local dimension.
+\item[the order parameter W] The order parameter is the class of the sinks reached at the stop condition, a discrete label and no field. The nearest standard term is an order parameter labelling a phase.
+\item[the orientation] The orientation is the direction of the act through the shared qudit, the orientation of a sink. The nearest standard term is an orientation of a graph.
+\item[the pair] A pair is one of the finitely many maximally entangled pairs of qudits the axiom says exist, the two qudits its ends. In standard terms it is exactly a maximally entangled pair of qudits, a Bell pair generalised to any two dimensions.
+\item[the pair ket] The pair ket is the twirl-fixed point, the unique pure state the matchings leave fixed. The nearest standard term is the maximally entangled state vector of a pair.
+\item[the pair type] The pair type is the dimensions of the two ends of a link in one fixed orientation. The nearest standard term is the pair of local dimensions (a,b) of the two ends.
+\item[the pairing move] The pairing move is the move that pairs two open ends into one link, its sink set the roster. The nearest standard term is an entanglement swap creating a pair between two ends.
+\item[the pairing record] The pairing record is the record a pairing move leaves at the two ends it joins. The nearest standard term is the correlation created by an entanglement swap.
+\item[the passage] A passage is a non-backtracking walk of the network. In standard terms it is exactly a non-backtracking walk on a graph.
+\item[the passage web] The passage web is the web a cross read passes, the hub legs and the read links taken together. The nearest standard term is the subgraph a walk visits.
+\item[the passed arm] The passed arm is the arm of a hub a read passes on its way through, the arm at which a release parts off a body. The nearest standard term is the leg of a vertex along the path of a measurement.
+\item[the phase group] The phase group is the finite group of phases the records of a genre carry, the same group at every genre. The nearest standard term is the group of phases of a stabilizer formalism, a finite cyclic group.
+\item[the placement] The placement is the position of a body in a joined web at the joined read. The nearest standard term is the position of a tensor in a network.
+\item[the port] A port is the read arm of a body at its attachment. The nearest standard term is an open leg of a tensor.
+\item[the precision ledger] The precision ledger is the ledger of a board that lists each computed figure with the comparison word beside it. The nearest standard term is a table of predicted values against measured ones.
+\item[the premise] A premise is a statement a derivation takes as given, carried by name until a theorem discharges it or an open result keeps it. The nearest standard term is a hypothesis of a derivation.
+\item[the probe] The probe is the measuring body attached at a port, read with the body it measures. The nearest standard term is the apparatus of a measurement.
+\item[qudit] A qudit is a finite-dimensional quantum system, the only kind of system the axiom admits. In standard terms it is exactly a d-level quantum system.
+\item[the rate cell] The rate cell is a cell of the decay board holding one decay rate the compendium computes. The nearest standard term is one entry of a table of decay rates.
+\item[the ray cycle] The ray cycle is a closed path of rays at the hydrogen web whose holonomy fixes the hyperfine interval. The nearest standard term is a cycle of a graph whose holonomy is read.
+\item[the re-matching move] The re-matching move is the move that changes the matching of basis directions across a pair, the gauge move of the theory. The nearest standard term is a gauge transformation.
+\item[the reach] The reach is the set of sites a read arrives at through the pairs it passes, posed at the vertex and left open there. The nearest standard term is the set of nodes a walk visits.
+\item[read] A read is a distillation of a qudit with another in one of its bases, one read for each basis, which gives the qudit that basis and passes it along each of its pairs to the far end. The nearest standard term is a projective measurement in a basis whose basis is carried along the pair.
+\item[the read order] The read order is the order of a read in the expansion by exchanges, the number of exchanges a record survives. The nearest standard term is the order of a term in a coupling expansion.
+\item[the readable genre] A readable genre is a genre whose one link admits a read; six genres are of this kind. The nearest standard term is an observable sector.
+\item[the readout] The readout is the normalized trace of a projector at a derived register with the twirl applied. The nearest standard term is the expectation value of a projector in the pair state.
+\item[record] A record is an invariant that all the reads of a qudit fix jointly under every matching of basis directions, a Weyl letter at each slot rather than one outcome. The nearest standard term is an invariant jointly fixed by a set of projective measurements.
+\item[the record class] The record class is the set of records of a web taken by genre and kind, carried under one move. The nearest standard term is an equivalence class of records.
+\item[the record space] The record space is the span of the records of a web. In standard terms it is exactly the Hilbert space spanned by the records.
+\item[the record sum] The record sum is the finite sum over the records of a web graded by the exchange count. The nearest standard term is a finite sum over paths, a path integral.
+\item[the reflection] A reflection is a move of the discrete laws that reverses a direction of the web, one of the Weyl reflections at the cap. The nearest standard term is a discrete symmetry such as parity.
+\item[register] A register is a product of site dimensions, the space a read or a body is traced over. The nearest standard term is a Hilbert-space dimension, the dimension of an operator space.
+\item[the release] A release is the parting of a body from a web by a move, read coherently as the unwashed square at the joined web. The nearest standard term is the emission of a decay product.
+\item[the released object] The released object is the web parted off by a move. The nearest standard term is a decay product.
+\item[the replication pack] The replication pack is the set of files that re-derives the fine-structure constant of the theory in the Lean proof assistant. The nearest standard term is the reproducibility package of a paper.
+\item[the rest letter] The rest letter is the letter that commutes with the generator the compendium names, the operator at rest in the Dirac form. The nearest standard term is the mass term of the Dirac equation.
+\item[the root] The root is the root link of a body; the closure of the kit has six roots. The nearest standard term is the root vertex of a tree.
+\item[the Rosetta table] The Rosetta table is the instrument that lines every noun of the chain theory with its nearest standard concept. The nearest standard term is a glossary that maps a notation to standard terminology.
+\item[the roster] The roster is the family of networks the rules admit, the set of sinks of the pairing move. The nearest standard term is the particle spectrum, the list of stable states.
+\item[the rung] A rung is one step of the ladder, one depth level of the closure. The nearest standard term is an energy level or a generation index.
+\item[saturation] The saturation is the forward closure of a seed terminating at the stop condition, the sinks printed. The nearest standard term is the iteration of a map to its fixed point.
+\item[the saturation chain] The saturation chain is the sequence of saturations run from a seed at growing counts. The nearest standard term is a sequence of iterations at increasing cutoff.
+\item[the scale] The scale is a body through which a coupling is read. The nearest standard term is a renormalization scale.
+\item[the scale body] The scale body is the apparatus web through which a coupling is read, the body that sets the scale of the running. The nearest standard term is the renormalization scale taken as a physical probe.
+\item[the sector] A sector is a class of records keyed by the structure counts, the sector key. The nearest standard term is a superselection sector.
+\item[the sector key] The sector key is the key of a sector at the structure counts, the star key at the dark cut. The nearest standard term is a quantum number labelling a sector.
+\item[seed] The seed is a kit web run as its own seed at wave zero under the stop reading. The nearest standard term is the initial state of an iterated map.
+\item[the segment read] The segment read is the read of one segment of a path through a web, the first power summed over the segments. The nearest standard term is one step of a path-ordered product.
+\item[the share] The share is the fraction a channel takes of the washed squares at a branching, and at a junction the count of pairs a shared qudit is an end of. The nearest standard term is the degree of a vertex in a tensor network, and at a branching a branching fraction.
+\item[shared] A shared qudit is a qudit that is one end of two or more pairs. The nearest standard term is a qudit entangled with two or more partners.
+\item[the shared reading] The shared reading is the reading of a word of the theory in which the shared qudit is read first, printed beside the key reading. The nearest standard term is one of two readings of an ambiguous term.
+\item[sink] A sink is a web that no move leaves, its forward edge empty; it is what the compendium calls a particle. The nearest standard term is a fixed point of the dynamics, a stable particle.
+\item[the sink basis] The sink basis is the basis of a read fixed by the sinks the closure reaches, whose overlaps were posed as the mixing and left open there. The nearest standard term is a mass eigenbasis.
+\item[the site] A site is a qudit of the network. In standard terms it is exactly a vertex of a tensor network.
+\item[the slot] A slot is one site position in the product of site dimensions. In standard terms it is exactly a tensor factor of the register.
+\item[the soft limit] The soft limit is the washed open read at the one link, the read at vanishing transfer. The nearest standard term is the soft limit of an amplitude at zero momentum.
+\item[the star] A star is a site with its arms. In standard terms it is exactly a star graph, a vertex with its incident edges.
+\item[the step] A step is the passage between two acts, a phase alone. The nearest standard term is one application of a unitary, a gate.
+\item[the stop condition] The stop condition is the stop reading of the closure at the pairing-move sink. The nearest standard term is a termination criterion of an iteration.
+\item[strike] A strike removes from a readout the record of one pair the qudit meets, the far end of that pair left unread. The nearest standard term is the partial trace over one subsystem.
+\item[the support link] The support link is the link on whose common support a reflection acts. The nearest standard term is the support of an operator.
+\item[the tick] A tick is one link per step of the lattice of ticks, the order coordinate of the compendium. The nearest standard term is the lattice spacing in the step direction.
+\item[the trace row] The trace row is the row of a readout that takes the trace over the centre, left open at the readout canon. The nearest standard term is the trace of a density matrix over a subalgebra.
+\item[the transport] The transport is the passing of a basis along a pair to its far end, fixed by the pair and chosen by no connection. The nearest standard term is parallel transport along an edge.
+\item[the unit] The unit is the mass unit at the hub leg of the probe, the readout of the electron with its dock struck. The nearest standard term is a unit of measure, a normalization.
+\item[the universe link] The universe link is the whole web read as one link, its factors the root set. The nearest standard term is the global state as one maximally entangled pair.
+\item[the valence] The valence of a site is its dimension read as a degree. The nearest standard term is the degree of a vertex.
+\item[wash] The wash is the average over the basis identifications the definitions leave free; a measurement is the wash at one act. In standard terms it is exactly the twirl, the group average over the unfixed identifications.
+\item[the washed marginal] The washed marginal is the marginal at the cap with the wash applied. In standard terms it is exactly a reduced density matrix with the twirl applied.
+\item[the washed overlap] The washed overlap is the overlap of two arm reads with the wash applied, posed as the mixing and left open there. The nearest standard term is a mixing-matrix element read as an overlap of eigenbases.
+\item[the washed square] The washed square is the square of the read with the wash applied, which is the rate. In standard terms it is exactly the twirled squared amplitude.
+\item[wave] A wave is the set of webs first reached at one count of moves from the seed. The nearest standard term is one layer of a breadth-first closure.
+\item[web] A web is a network of pairs joined at shared qudits, with no stabilizer phase fixed and no measurement pattern chosen. The nearest standard term is a graph state, a tensor network of maximally entangled pairs.
+\item[the word] The word of a carrier is its read word at a readable link, a product of letters, the photon word and the W word among them. The nearest standard term is a Pauli word, a syndrome string.
+\end{description}
+\section*{The map of the compendium}\label{sec:map}\label{front:map}
+The compendium has sixteen Parts of 116 chapters with two chapters of the first Part at appendix slots, every chapter at the one shape the framework chapter describes, and the instrument chapters of every Part are printed among the instruments at the end of this compendium, with one listing chapter per Part.
+\paragraph{Part I, The Framework (6 chapters).} 1-0 The framework: the Axiom and the six definitions; 1-1 The axiom and the six definitions; 1-2 The link and its six genres; 1-3 Records, reads and the Born count: the gain lemma; 1-6 The read at a register: the probe and the measurement; 1-L The instrument tables of this Part
+\paragraph{Part II, The Rule, The Chain Automata And The Single Root (1 chapters).} 2-L The instrument tables of this Part
+\paragraph{Part III, Quantum Mechanics (10 chapters).} 3-1 The state space from the act outputs; 3-2 The Born rule and unitarity; 3-3 The uncertainty relation from the Weyl relation; 3-4 Measurement: the wash at one act and the POVM; 3-5 Indistinguishability and the spin-statistics sign; 3-6 Energy and the Hamiltonian: the first-power operator and the step; 3-7 The path integral as the finite record sum; 3-8 The Wigner function and the many-body sign; 3-9 The QM corollaries: the fifteen entries; 3-L The instrument tables of this Part
+\paragraph{Part IV, Spacetime, Symmetry And The Dynamics Of The Read (8 chapters).} 4-1 The order coordinate and its theorem; 4-2 The rotation group; 4-3 The Lorentz group and the signature; 4-4 Boosts and the one unit; 4-5 Spin and helicity; 4-6 P, C, T and CPT; 4-7 The order theorem: group moves and transfers; 4-L The instrument tables of this Part
+\paragraph{Part V, The Matrix, The Standard Model At The Six Genres (15 chapters).} 5-1 Gauge invariance as the known clause; 5-2 The gauge group as a corollary of one construction; 5-3 The representations from the open-end census; 5-4 The Cartan weights and the charge; 5-5 The sign from the side of the acting site; 5-6 Conservation as the kernel of the move matrix; 5-7 Noether at the sinks and the kernel identification; 5-8 The Ward identity and the anomaly sums; 5-L The instrument tables of this Part; 5-8f The mass register and the generations; 5-9 The one rule of a read and the word table; 5-11 The quantum numbers of every body as the end counts of its membership; 5-13 The diagonal self couplings in one form; 5-15 The unconserved sites as the hub acts; 5-16 The frame at every end as the stabiliser of its dimension
+\paragraph{Part VI, The Metric, The Worldline And The Horizon (12 chapters).} 6-L The instrument tables of this Part; 6-1 Curvature as the graph Laplacian washed over the ladder; 6-2 The field equation at the counting face; 6-2a The area law at the cut; 6-3 The horizon at every rung and the horizon web as a seeded saturation; 6-4 Depth: the growth order and the termination wave; 6-5 The register tower and the metric; 6-6 The cosmological term at the depth exponent; 6-7 Dark matter as the dock-free sinks; 6-7a The depth of the universe web; 6-10 The tick scale as a coupling scale; 6-11 The frame as the qubit end of the two two link
+\paragraph{Part VII, The Photon (11 chapters).} 7-1 The fine-structure constant at the one link: the infrared restatement with the Photon Conjecture; 7-2 The electron anomalous dipole factor through order three; 7-L The instrument tables of this Part; 7-4 Hydrogen: the Rydberg ladder and the fine structure; 7-5 The Lamb shift and the Casimir effect; 7-6 Finiteness without renormalization: the finite record sum and the order grading; 7-7 The running of the coupling; 7-8 The photon: docking, the join face and pair production; 7-10 The lepton ladder as hub assemblies; 7-11 The face dissolution, the leg count and the exponent; 7-12 The Koide class
+\paragraph{Part VIII, The Carriers And The Breaking (8 chapters).} 8-1 The hub step as the weak interaction; 8-2 The W and the Z and their masses; 8-L The instrument tables of this Part; 8-2b The neutral lepton: the hub unit with its legs open; 8-3 The doublets, handedness and parity violation; 8-6 The weak angle; 8-7 Mixing, the washed overlap and the CKM block; 8-8 Beta decay and the boson widths
+\paragraph{Part IX, The Junction (8 chapters).} 9-1 Confinement as the dark-genre readability; 9-2 The strong coupling; 9-3 Nucleon structure and the form factor; 9-4 The proton as a seeded sink; 9-5 The proton-to-electron ratio: a candidate; 9-6 The hadron spectrum and the mesons; 9-7 Quark content and flavour; 9-L The instrument tables of this Part
+\paragraph{Part X, The Yukawa Leg And The Higgs Offices At The Bodies (6 chapters).} 10-1 The mass unit and the first power; 10-2 The body-alone office rule; 10-3 The next terms and the unstable rows; 10-4 Three generations as attach sites; 10-5 The unified mass readout; 10-6 The Yukawa sector at the dressing leg
+\paragraph{Part XI, The Higgs, Its Hub Register And The Dressing Field (1 chapters).} 11-1 The Higgs: the closed hub read, its rows, its mass and its exponent
+\paragraph{Part XII, Decays And Nuclear Physics (7 chapters).} 12-1 Decay as the forward edge of a non-sink: the move graph of the hub step; 12-2 The rate as the washed square of the read and the tick unit; 12-3 The prefactor as the tick width; 12-4 The imbalance readout, lifetimes and branching; 12-L The instrument tables of this Part; 12-6 Binding as the pairing records: the deuteron and the alpha; 12-7 The nuclear rows at the joined seeded web
+\paragraph{Part XIII, Thermodynamics (7 chapters).} 13-1 The second law as the boundary count under acts; 13-2 The thermal state; 13-3 The ensembles as cap readings; 13-4 The order parameter at the stop condition; 13-5 The phase transition as the sink-class change; 13-L The instrument tables of this Part; 13-7 The thermodynamic remainder and the arrow
+\paragraph{Part XIV, Condensed Matter And Atoms (6 chapters).} 14-1 The lattice as the periodic sink; 14-2 The band and the dispersion; 14-3 The chain of pairs and the charged periodic sink; 14-L The instrument tables of this Part; 14-5 The periodic table as the joined-electron sinks; 14-6 Atoms: the hydrogen probe web and the N-body readout
+\paragraph{Part XV, Quantum Information (6 chapters).} 15-1 The closure as the computation; 15-2 The moves as a gate set and the Weyl criterion; 15-3 The Hadamard as the coherent read; 15-4 Distillation: the read as the maximal distillation and the distillation theorem; 15-5 The cost of a read and the adiabatic class; 15-6 Holonomy and the record transport
+\paragraph{Part XVI, The Scorecard, The Open Results And What Remains (4 chapters).} 16-1 The results table re-tallied; 16-2 The open results census in physics terms; 16-7 What remains: the ungraded page; 16-C Conclusion
+\paragraph{The appendix slots (2 chapters).} 1-4 The moves in one table; 1-5 The saturation in one figure: seeds, waves, termination, sinks
+\section*{The derivation graph}\label{front:dag}
+\begin{figure}[htbp]\centering
+\setlength{\unitlength}{1mm}
+\begin{picture}(160,100)(0,0)
+\put(56,90){\framebox(48,8){\footnotesize Definition~1.1, the axiom}}
+\put(14,66){\framebox(36,8){\footnotesize the qubit, register two}}
+\qbezier(80,90)(56,82)(32,74)
+\put(62,66){\framebox(36,8){\footnotesize the qutrit, register three}}
+\qbezier(80,90)(80,82)(80,74)
+\put(112,66){\framebox(36,8){\footnotesize the ququart, register four}}
+\qbezier(80,90)(105,82)(130,74)
+\put(4,42){\framebox(20,8){\footnotesize (2,2)}}
+\qbezier(32,66)(23,58)(14,50)
+\put(30,42){\framebox(20,8){\footnotesize (2,3)}}
+\qbezier(32,66)(36,58)(40,50)
+\qbezier(80,66)(60,58)(40,50)
+\put(56,42){\framebox(20,8){\footnotesize (2,4)}}
+\qbezier(32,66)(49,58)(66,50)
+\qbezier(130,66)(98,58)(66,50)
+\put(82,42){\framebox(20,8){\footnotesize (3,3)}}
+\qbezier(80,66)(86,58)(92,50)
+\put(108,42){\framebox(20,8){\footnotesize (3,4)}}
+\qbezier(80,66)(99,58)(118,50)
+\qbezier(130,66)(124,58)(118,50)
+\put(134,42){\framebox(20,8){\footnotesize (4,4)}}
+\qbezier(130,66)(137,58)(144,50)
+\put(1,14){\framebox(10,8){\scriptsize I}}
+\put(1,8){\makebox(10,5){\tiny 2.1}}
+\qbezier(40,42)(23,32)(6,22)
+\put(12,14){\framebox(10,8){\scriptsize III}}
+\put(12,8){\makebox(10,5){\tiny 35.1}}
+\qbezier(14,42)(15,32)(17,22)
+\put(23,14){\framebox(10,8){\scriptsize IV}}
+\put(23,8){\makebox(10,5){\tiny 50.1}}
+\qbezier(40,42)(34,32)(28,22)
+\put(34,14){\framebox(10,8){\scriptsize V}}
+\put(34,8){\makebox(10,5){\tiny 64.1}}
+\qbezier(14,42)(26,32)(39,22)
+\put(45,14){\framebox(10,8){\scriptsize VII}}
+\put(45,8){\makebox(10,5){\tiny 124.1}}
+\qbezier(40,42)(45,32)(50,22)
+\put(56,14){\framebox(10,8){\scriptsize VIII}}
+\put(56,8){\makebox(10,5){\tiny 158.1}}
+\qbezier(66,42)(63,32)(61,22)
+\put(67,14){\framebox(10,8){\scriptsize IX}}
+\put(67,8){\makebox(10,5){\tiny 171.1}}
+\qbezier(92,42)(82,32)(72,22)
+\put(78,14){\framebox(10,8){\scriptsize X}}
+\put(78,8){\makebox(10,5){\tiny 185.1}}
+\qbezier(40,42)(61,32)(83,22)
+\put(89,14){\framebox(10,8){\scriptsize XII}}
+\put(89,8){\makebox(10,5){\tiny 203.1}}
+\qbezier(92,42)(93,32)(94,22)
+\put(100,14){\framebox(10,8){\scriptsize VI}}
+\put(100,8){\makebox(10,5){\tiny 90.1}}
+\qbezier(40,42)(72,32)(105,22)
+\put(111,14){\framebox(10,8){\scriptsize XIII}}
+\put(111,8){\makebox(10,5){\tiny 217.1}}
+\qbezier(40,42)(78,32)(116,22)
+\put(122,14){\framebox(10,8){\scriptsize XIV}}
+\put(122,8){\makebox(10,5){\tiny 224.1}}
+\qbezier(14,42)(70,32)(127,22)
+\put(133,14){\framebox(10,8){\scriptsize XV}}
+\put(133,8){\makebox(10,5){\tiny 230.1}}
+\qbezier(14,42)(76,32)(138,22)
+\put(144,14){\framebox(10,8){\scriptsize XVI}}
+\put(144,8){\makebox(10,5){\tiny no theorem}}
+\qbezier(40,42)(94,32)(149,22)
+\put(0,0){\makebox(160,5){\scriptsize fourteen of the sixteen Parts (all but II and XI), each beneath the genre its chapters name most, with the first theorem of the Part beneath its numeral}}
+\end{picture}
+\par\smallskip
+{\footnotesize\begin{adjustbox}{max width=\linewidth}\begin{tabular}{ll}
+Part & rests on the Parts \\ \hline
+I & III, V, X \\
+III & I \\
+IV & I, XV \\
+V & I, VII, VIII, X \\
+VI & I, XV \\
+VII & I, III, IV, X, XV \\
+VIII & I, III, V, VII, X, XII \\
+IX & I, X \\
+X & I, VII \\
+XII & I, X \\
+XIII & I \\
+XIV & I, III, V, VII, IX \\
+XV & I \\
+XVI & I \\
+\end{tabular}\end{adjustbox}}
+\caption{The derivation graph of the compendium re-rooted at the axiom and the three registers, with the six genres of the link at its first branching and the fourteen Parts beneath the genre each names most. Every theorem of a Part descends from the axiom through the chain its dependency lines record, and the table beneath lists, for every Part, the Parts whose theorems its own theorems rest on.}\label{fig:derivation-graph}
+\end{figure}
+\begin{table}[htbp]\centering\footnotesize
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{p{12mm}p{112mm}rr}
+Part & the chain from the axiom to the first theorem of the Part & steps & direct \\ \hline
+I & Definition~1.1 $\to$ Theorem~2.1 & 1 & 1 \\
+III & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~35.1 & 4 & 1 \\
+IV & Definition~1.1 $\to$ the table titled The Rosetta table of the Chain Theory nouns (in chapter~\ref{mod:I-7-rosetta-table-in-full}, among the instruments) $\to$ Theorem~50.1 & 2 & 1 \\
+V & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~64.1 & 4 & 1 \\
+VI & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Open result~F.1 $\to$ Open result~J.1 $\to$ Theorem~90.1 & 5 & 1 \\
+VII & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~35.1 $\to$ Theorem~40.1 $\to$ Theorem~124.1 & 6 & 1 \\
+VIII & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Open result~F.1 $\to$ Open result~J.1 $\to$ Theorem~158.1 & 5 & 1 \\
+IX & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~28.1 $\to$ Theorem~171.1 & 5 & 1 \\
+X & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~28.1 $\to$ Theorem~185.1 & 5 & 1 \\
+XII & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Open result~F.1 $\to$ Open result~J.1 $\to$ Theorem~203.1 & 5 & 1 \\
+XIII & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~217.1 & 4 & 1 \\
+XIV & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Theorem~18.1 $\to$ Theorem~28.1 $\to$ Theorem~171.1 $\to$ Theorem~172.1 $\to$ Theorem~177.1 $\to$ Theorem~224.1 & 8 & 1 \\
+XV & Definition~1.1 $\to$ Theorem~2.1 $\to$ Theorem~9.1 $\to$ Open result~F.1 $\to$ Open result~J.1 $\to$ Theorem~230.1 & 5 & 1 \\
+\end{tabular}\end{adjustbox}
+\caption{The path from the axiom to the first theorem of every Part: each step is the first theorem of a chapter the chain passes through, the chain the longest the dependency lines allow (the layer of the theorem in the derivation graph), with the length of the shortest chain beside (every chapter names the framework among what it rests on, so the shortest chain is one step).}\label{tab:paths}
+\end{table}
+\begin{figure}[htbp]\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{adjustbox}{max width=\linewidth}\begin{tabular}{|p{14mm}|p{44mm}|p{44mm}|p{44mm}|}
+\hline
+ & \textbf{register two} (the qubit) & \textbf{register three} (the qutrit) & \textbf{register four} (the ququart) \\ \hline
+\textbf{register two} & \textbf{(2,2)} \newline su(2)+su(2)+u(1), dimension 7 \newline first read at order one \newline \emph{spacetime, conjectured} & \textbf{(3,2)} \newline su(2)+su(3)+u(1), dimension 12 \newline first read at order one \newline \emph{electromagnetism: the photon (Conjecture 1)} & \textbf{(4,2)} \newline su(2)+su(4)+u(1), dimension 19 \newline first read at order two \newline \emph{the weak interaction, by name} \\ \hline
+\textbf{register three} & \emph{the link (3,2), read from its other end} & \textbf{(3,3)} \newline su(3)+su(3)+u(1), dimension 17 \newline first read at order two \newline \emph{the strong interaction, by name} & \textbf{(4,3)} \newline su(3)+su(4)+u(1), dimension 24 \newline first read at order two \newline \emph{the Yukawa sector, by name} \\ \hline
+\textbf{register four} & \emph{the link (4,2), read from its other end} & \emph{the link (4,3), read from its other end} & \textbf{(4,4)} \newline su(4)+su(4)+u(1), dimension 31 \newline first read at order two \newline \emph{the Higgs, by name} \\ \hline
+\end{tabular}\end{adjustbox}
+\caption{The register matrix in brief, beside the derivation graph: the six genres of the link at the pairs of the three registers, each with its identification algebra, its first non-vanishing read order and the name it carries in the language of the literature. The full matrix stands at the framework chapter and the standing of every cell at the last Part. At the four cells named by correspondence the correspondence is by name. At the cell (3,2) the photon is the first conjecture of the compendium, attached to the open link whose office is zero and whose center acts, and at the cell (2,2) the matrix reads spacetime, conjectured.}\label{fig:register-matrix-front}
+\end{figure}

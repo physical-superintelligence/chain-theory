@@ -1,0 +1,10 @@
+name = "kernelDerivationC"
+defaultTargets = ["KernelDerivationC"]
+
+[[require]]
+name = "axiomDeclarationTwo"
+path = "../AxiomDeclarationTwo"
+
+[[lean_lib]]
+name = "KernelDerivationC"
+leanOptions = { autoImplicit = false }

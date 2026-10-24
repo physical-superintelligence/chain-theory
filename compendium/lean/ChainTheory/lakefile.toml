@@ -1,0 +1,24 @@
+name = "chainTheory"
+defaultTargets = ["AlphaDerivation", "ChainTheory"]
+
+[[require]]
+name = "axiomDeclarationTwo"
+path = "../AxiomDeclarationTwo"
+
+[[require]]
+name = "kernelDerivationC"
+path = "../KernelDerivationC"
+
+[[require]]
+name = "actClosureCapFree"
+path = "../ActClosureCapFree"
+
+[[lean_lib]]
+name = "AlphaDerivation"
+
+[[lean_lib]]
+name = "ChainTheory"
+
+[[lean_exe]]
+name = "certificate"
+root = "Certificate"

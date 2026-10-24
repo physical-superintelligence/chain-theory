@@ -1,0 +1,2739 @@
+{
+ "source": "the author's particle-web drawing, layouts by spring embedding (no record content)",
+ "colors": {
+  "2": "#3b7dd8",
+  "3": "#2e9e5b",
+  "4": "#e0882b"
+ },
+ "grades": "Each particle's grade is the weakest grade among the compendium results its web rests on, read from its standing line: theorem, conditional (a conditional theorem), or open (an open result). The grade is that of the result about the web; that the web is the named particle is in every case a conjecture.",
+ "particles": [
+  {
+   "name": "electron",
+   "label": "electron",
+   "family": "charged lepton",
+   "generation": 1,
+   "symbol": "e",
+   "web": "E_TWODOCK",
+   "sites": [
+    {
+     "id": "A",
+     "d": 3,
+     "role": "core",
+     "x": 409.6,
+     "y": 273.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "B",
+     "d": 3,
+     "role": "core",
+     "x": 544.3,
+     "y": 172.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "C",
+     "d": 3,
+     "role": "core",
+     "x": 577.5,
+     "y": 296.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 199.7,
+     "y": 327.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "a1",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 332.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "a2",
+     "d": 2,
+     "role": "read",
+     "x": 74.7,
+     "y": 246.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "a3",
+     "d": 2,
+     "role": "read",
+     "x": 153.7,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "w1",
+     "d": 2,
+     "role": "read",
+     "x": 627.3,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "w2",
+     "d": 2,
+     "role": "read",
+     "x": 714.0,
+     "y": 368.1,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "A",
+     "b": "B",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "B",
+     "b": "C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "A",
+     "b": "C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "A",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "a1",
+     "b": "a2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "B",
+     "b": "w1",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "C",
+     "b": "w2",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The lepton ladder as hub assemblies, conditional theorem 152.1: the core triangle with one hub assembly.",
+   "grade": "conditional"
+  },
+  {
+   "name": "muon",
+   "label": "muon",
+   "family": "charged lepton",
+   "generation": 2,
+   "symbol": "μ",
+   "web": "T6-MU-LEAF",
+   "sites": [
+    {
+     "id": "A",
+     "d": 3,
+     "role": "core",
+     "x": 272.2,
+     "y": 215.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "B",
+     "d": 3,
+     "role": "core",
+     "x": 388.9,
+     "y": 265.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "C",
+     "d": 3,
+     "role": "core",
+     "x": 347.3,
+     "y": 160.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 134.5,
+     "y": 199.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "H2",
+     "d": 4,
+     "role": "adapter",
+     "x": 510.5,
+     "y": 363.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "a1",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 207.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "a2",
+     "d": 2,
+     "role": "read",
+     "x": 65.5,
+     "y": 268.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "a3",
+     "d": 2,
+     "role": "read",
+     "x": 85.4,
+     "y": 100.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "b1",
+     "d": 2,
+     "role": "read",
+     "x": 553.6,
+     "y": 456.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "b2",
+     "d": 2,
+     "role": "read",
+     "x": 506.5,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "b3",
+     "d": 2,
+     "role": "read",
+     "x": 625.8,
+     "y": 353.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "w1",
+     "d": 2,
+     "role": "read",
+     "x": 714.0,
+     "y": 354.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "w2",
+     "d": 2,
+     "role": "read",
+     "x": 368.9,
+     "y": 46.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "A",
+     "b": "B",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "B",
+     "b": "C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "A",
+     "b": "C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "A",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "a1",
+     "b": "a2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "B",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "b1",
+     "b": "b2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "w2",
+     "b": "C",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "w1",
+     "b": "b3",
+     "genre": "(2,2)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The lepton ladder as hub assemblies, conditional theorem 152.1: the core triangle with two hub assemblies.",
+   "grade": "conditional"
+  },
+  {
+   "name": "tau",
+   "label": "tau",
+   "family": "charged lepton",
+   "generation": 3,
+   "symbol": "τ",
+   "web": "T6-TAU-LL",
+   "sites": [
+    {
+     "id": "A",
+     "d": 3,
+     "role": "core",
+     "x": 344.4,
+     "y": 296.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "B",
+     "d": 3,
+     "role": "core",
+     "x": 400.3,
+     "y": 221.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "C",
+     "d": 3,
+     "role": "core",
+     "x": 288.7,
+     "y": 221.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 343.6,
+     "y": 404.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "H2",
+     "d": 4,
+     "role": "adapter",
+     "x": 521.9,
+     "y": 169.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "H3",
+     "d": 4,
+     "role": "adapter",
+     "x": 167.2,
+     "y": 170.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "a1",
+     "d": 2,
+     "role": "read",
+     "x": 332.3,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "a2",
+     "d": 2,
+     "role": "read",
+     "x": 293.0,
+     "y": 457.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "a3",
+     "d": 2,
+     "role": "read",
+     "x": 402.4,
+     "y": 452.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "b1",
+     "d": 2,
+     "role": "read",
+     "x": 531.6,
+     "y": 105.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "b2",
+     "d": 2,
+     "role": "read",
+     "x": 571.2,
+     "y": 121.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "b3",
+     "d": 2,
+     "role": "read",
+     "x": 630.4,
+     "y": 169.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "c1",
+     "d": 2,
+     "role": "read",
+     "x": 92.1,
+     "y": 165.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "c2",
+     "d": 2,
+     "role": "read",
+     "x": 99.7,
+     "y": 201.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "c3",
+     "d": 2,
+     "role": "read",
+     "x": 101.9,
+     "y": 98.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "w1",
+     "d": 2,
+     "role": "read",
+     "x": 714.0,
+     "y": 163.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "w2",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 46.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "A",
+     "b": "B",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "B",
+     "b": "C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "A",
+     "b": "C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "A",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "a3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "a1",
+     "b": "a2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "B",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "b1",
+     "b": "b2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H3",
+     "b": "C",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H3",
+     "b": "c1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H3",
+     "b": "c2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H3",
+     "b": "c3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "c1",
+     "b": "c2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "w1",
+     "b": "b3",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "w2",
+     "b": "c3",
+     "genre": "(2,2)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The tau as the third hub on the triangle core, theorem 154.1.",
+   "grade": "theorem"
+  },
+  {
+   "name": "neutrino",
+   "label": "neutrino, depth web N0 (the cross-core body)",
+   "family": "neutrino",
+   "generation": 1,
+   "symbol": "ν₁",
+   "web": "CROSS-CORE-N0",
+   "sites": [
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 258.9,
+     "y": 153.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "q1",
+     "d": 2,
+     "role": "adapter",
+     "x": 428.5,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "q2",
+     "d": 2,
+     "role": "adapter",
+     "x": 484.0,
+     "y": 159.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "p1",
+     "d": 2,
+     "role": "adapter",
+     "x": 165.0,
+     "y": 314.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "p2",
+     "d": 2,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 71.2,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "H",
+     "b": "q1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "q1",
+     "b": "q2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "p1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "p2",
+     "genre": "(2,4)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    530.0,
+    360.0
+   ],
+   "standing": "The cross-core body at depth one. Its reading as a neutrino is open; the neutral sinks census is conditional theorem 162.2, and the other candidate webs are open.",
+   "grade": "open"
+  },
+  {
+   "name": "neutrino",
+   "label": "neutrino, depth web N1 (the cross-core body)",
+   "family": "neutrino",
+   "generation": 2,
+   "symbol": "ν₂",
+   "web": "CROSS-CORE-N1",
+   "sites": [
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 600.7,
+     "y": 270.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "q1",
+     "d": 2,
+     "role": "adapter",
+     "x": 673.1,
+     "y": 128.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "q2",
+     "d": 2,
+     "role": "adapter",
+     "x": 714.0,
+     "y": 221.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "c1",
+     "d": 2,
+     "role": "adapter",
+     "x": 430.9,
+     "y": 283.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "H1",
+     "d": 4,
+     "role": "adapter",
+     "x": 260.6,
+     "y": 300.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "a1",
+     "d": 2,
+     "role": "adapter",
+     "x": 170.1,
+     "y": 409.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "b1",
+     "d": 2,
+     "role": "adapter",
+     "x": 228.4,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "o1",
+     "d": 2,
+     "role": "adapter",
+     "x": 143.8,
+     "y": 154.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "p1",
+     "d": 2,
+     "role": "adapter",
+     "x": 668.7,
+     "y": 424.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "p2",
+     "d": 2,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 46.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "H",
+     "b": "q1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "q1",
+     "b": "q2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "c1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "c1",
+     "b": "H1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H1",
+     "b": "a1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H1",
+     "b": "b1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H1",
+     "b": "o1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "a1",
+     "b": "b1",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "p1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "o1",
+     "b": "p2",
+     "genre": "(2,2)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The cross-core body at depth two; standing as for the first.",
+   "grade": "open"
+  },
+  {
+   "name": "neutrino",
+   "label": "neutrino, depth web N2 (the cross-core body)",
+   "family": "neutrino",
+   "generation": 3,
+   "symbol": "ν₃",
+   "web": "CROSS-CORE-N2",
+   "sites": [
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 384.2,
+     "y": 215.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "q1",
+     "d": 2,
+     "role": "adapter",
+     "x": 352.4,
+     "y": 135.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "q2",
+     "d": 2,
+     "role": "adapter",
+     "x": 389.0,
+     "y": 118.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "c1",
+     "d": 2,
+     "role": "adapter",
+     "x": 289.8,
+     "y": 294.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "H1",
+     "d": 4,
+     "role": "adapter",
+     "x": 195.6,
+     "y": 371.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "a1",
+     "d": 2,
+     "role": "adapter",
+     "x": 159.2,
+     "y": 452.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "b1",
+     "d": 2,
+     "role": "adapter",
+     "x": 192.2,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "o1",
+     "d": 2,
+     "role": "adapter",
+     "x": 112.6,
+     "y": 351.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "c2",
+     "d": 2,
+     "role": "adapter",
+     "x": 490.3,
+     "y": 204.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "H2",
+     "d": 4,
+     "role": "adapter",
+     "x": 592.6,
+     "y": 192.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "a2",
+     "d": 2,
+     "role": "adapter",
+     "x": 649.7,
+     "y": 231.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "b2",
+     "d": 2,
+     "role": "adapter",
+     "x": 627.4,
+     "y": 279.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "o2",
+     "d": 2,
+     "role": "adapter",
+     "x": 659.6,
+     "y": 105.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "p1",
+     "d": 2,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 346.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "p2",
+     "d": 2,
+     "role": "adapter",
+     "x": 714.0,
+     "y": 46.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "H",
+     "b": "q1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "q1",
+     "b": "q2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "c1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "c1",
+     "b": "H1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H1",
+     "b": "a1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H1",
+     "b": "b1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H1",
+     "b": "o1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "a1",
+     "b": "b1",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "c2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "c2",
+     "b": "H2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "a2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "b2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "o2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "a2",
+     "b": "b2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "o1",
+     "b": "p1",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "o2",
+     "b": "p2",
+     "genre": "(2,2)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The cross-core body at depth three; standing as for the first.",
+   "grade": "open"
+  },
+  {
+   "name": "up quark",
+   "label": "up quark",
+   "family": "up-type quark",
+   "generation": 1,
+   "symbol": "u",
+   "web": "U_DOCKED",
+   "sites": [
+    {
+     "id": "Jd",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q",
+     "d": 3,
+     "role": "core",
+     "x": 193.9,
+     "y": 139.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "n",
+     "d": 2,
+     "role": "read",
+     "x": 344.0,
+     "y": 234.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "Q",
+     "b": "n",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "Jd",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    390.0,
+    280.0
+   ],
+   "standing": "Flavor as the rung name and the quark ladder, conditional theorem 181.2.",
+   "grade": "conditional"
+  },
+  {
+   "name": "down quark",
+   "label": "down quark",
+   "family": "down-type quark",
+   "generation": 1,
+   "symbol": "d",
+   "web": "D_DOCKED",
+   "sites": [
+    {
+     "id": "F",
+     "d": 4,
+     "role": "adapter",
+     "x": 223.9,
+     "y": 199.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "Jd",
+     "d": 2,
+     "role": "read",
+     "x": 624.0,
+     "y": 215.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q",
+     "d": 3,
+     "role": "core",
+     "x": 451.1,
+     "y": 265.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "f1",
+     "d": 2,
+     "role": "read",
+     "x": 81.0,
+     "y": 284.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "f2",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 192.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "f3",
+     "d": 2,
+     "role": "read",
+     "x": 207.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "n",
+     "d": 2,
+     "role": "read",
+     "x": 551.0,
+     "y": 394.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "Q",
+     "b": "n",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "F",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "f1",
+     "b": "f2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "Jd",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    670.0,
+    440.0
+   ],
+   "standing": "The quark ladder, conditional theorems 181.2 and 181.4.",
+   "grade": "conditional"
+  },
+  {
+   "name": "charm quark",
+   "label": "charm quark",
+   "family": "up-type quark",
+   "generation": 2,
+   "symbol": "c",
+   "web": "C_DOCKED",
+   "sites": [
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 203.0,
+     "y": 221.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "Jd",
+     "d": 2,
+     "role": "read",
+     "x": 554.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q",
+     "d": 3,
+     "role": "core",
+     "x": 396.8,
+     "y": 124.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "q1",
+     "d": 2,
+     "role": "read",
+     "x": 222.2,
+     "y": 354.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "q2",
+     "d": 2,
+     "role": "read",
+     "x": 94.3,
+     "y": 331.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "q3",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 132.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "Q",
+     "b": "H",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "q1",
+     "b": "q2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "Jd",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    600.0,
+    400.0
+   ],
+   "standing": "The quark ladder, conditional theorems 181.2 and 181.4.",
+   "grade": "conditional"
+  },
+  {
+   "name": "strange quark",
+   "label": "strange quark",
+   "family": "down-type quark",
+   "generation": 2,
+   "symbol": "s",
+   "web": "S_DOCKED",
+   "sites": [
+    {
+     "id": "F",
+     "d": 4,
+     "role": "adapter",
+     "x": 168.4,
+     "y": 212.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "G",
+     "d": 4,
+     "role": "adapter",
+     "x": 576.0,
+     "y": 302.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "Jd",
+     "d": 2,
+     "role": "read",
+     "x": 343.2,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q",
+     "d": 3,
+     "role": "core",
+     "x": 364.7,
+     "y": 302.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "f1",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 116.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "f2",
+     "d": 2,
+     "role": "read",
+     "x": 111.4,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "f3",
+     "d": 2,
+     "role": "read",
+     "x": 48.1,
+     "y": 320.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "g1",
+     "d": 2,
+     "role": "read",
+     "x": 671.7,
+     "y": 431.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "g2",
+     "d": 2,
+     "role": "read",
+     "x": 714.0,
+     "y": 340.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "g3",
+     "d": 2,
+     "role": "read",
+     "x": 656.8,
+     "y": 149.8,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "Q",
+     "b": "F",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "f1",
+     "b": "f2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "G",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "G",
+     "b": "g1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "G",
+     "b": "g2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "G",
+     "b": "g3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "g1",
+     "b": "g2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "Jd",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The quark ladder, conditional theorems 181.2 and 181.4.",
+   "grade": "conditional"
+  },
+  {
+   "name": "top quark",
+   "label": "top quark",
+   "family": "up-type quark",
+   "generation": 3,
+   "symbol": "t",
+   "web": "TA_DOCKED",
+   "sites": [
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 381.9,
+     "y": 194.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "H2",
+     "d": 4,
+     "role": "adapter",
+     "x": 571.3,
+     "y": 321.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "Jd",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 265.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q",
+     "d": 3,
+     "role": "core",
+     "x": 194.3,
+     "y": 238.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "q1",
+     "d": 2,
+     "role": "read",
+     "x": 318.9,
+     "y": 56.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "q2",
+     "d": 2,
+     "role": "read",
+     "x": 408.1,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "q3",
+     "d": 2,
+     "role": "read",
+     "x": 714.0,
+     "y": 256.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "q4",
+     "d": 2,
+     "role": "read",
+     "x": 676.3,
+     "y": 433.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "q5",
+     "d": 2,
+     "role": "read",
+     "x": 595.0,
+     "y": 474.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "Q",
+     "b": "H",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "q2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "q1",
+     "b": "q2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "H2",
+     "genre": "(4,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "q3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "q4",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "H2",
+     "b": "q5",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "q4",
+     "b": "q5",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "Jd",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The quark ladder, conditional theorems 181.2 and 181.4.",
+   "grade": "conditional"
+  },
+  {
+   "name": "bottom quark",
+   "label": "bottom quark",
+   "family": "down-type quark",
+   "generation": 3,
+   "symbol": "b",
+   "web": "BA_DOCKED",
+   "sites": [
+    {
+     "id": "F",
+     "d": 4,
+     "role": "adapter",
+     "x": 150.1,
+     "y": 370.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "G",
+     "d": 4,
+     "role": "adapter",
+     "x": 481.6,
+     "y": 305.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "G2",
+     "d": 4,
+     "role": "adapter",
+     "x": 606.2,
+     "y": 168.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "Jd",
+     "d": 2,
+     "role": "read",
+     "x": 302.7,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q",
+     "d": 3,
+     "role": "core",
+     "x": 315.4,
+     "y": 360.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "f1",
+     "d": 2,
+     "role": "read",
+     "x": 46.0,
+     "y": 398.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "f2",
+     "d": 2,
+     "role": "read",
+     "x": 76.7,
+     "y": 457.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "f3",
+     "d": 2,
+     "role": "read",
+     "x": 78.7,
+     "y": 278.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "g1",
+     "d": 2,
+     "role": "read",
+     "x": 514.9,
+     "y": 414.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "g2",
+     "d": 2,
+     "role": "read",
+     "x": 561.9,
+     "y": 370.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "g3",
+     "d": 2,
+     "role": "read",
+     "x": 714.0,
+     "y": 183.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "g4",
+     "d": 2,
+     "role": "read",
+     "x": 671.5,
+     "y": 69.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "g5",
+     "d": 2,
+     "role": "read",
+     "x": 617.0,
+     "y": 46.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "Q",
+     "b": "F",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "F",
+     "b": "f3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "f1",
+     "b": "f2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "G",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "G",
+     "b": "g1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "G",
+     "b": "g2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "g1",
+     "b": "g2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "G",
+     "b": "G2",
+     "genre": "(4,4)",
+     "read": false
+    },
+    {
+     "a": "G2",
+     "b": "g3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "G2",
+     "b": "g4",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "G2",
+     "b": "g5",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "g4",
+     "b": "g5",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "Q",
+     "b": "Jd",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The quark ladder, conditional theorems 181.2 and 181.4.",
+   "grade": "conditional"
+  },
+  {
+   "name": "photon",
+   "label": "photon",
+   "family": "gauge boson",
+   "generation": 0,
+   "symbol": "γ",
+   "web": "r-GAM",
+   "sites": [
+    {
+     "id": "s1",
+     "d": 2,
+     "role": "read",
+     "x": 554.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "s2",
+     "d": 3,
+     "role": "core",
+     "x": 462.4,
+     "y": 101.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "s3",
+     "d": 2,
+     "role": "read",
+     "x": 354.5,
+     "y": 166.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "s4",
+     "d": 3,
+     "role": "core",
+     "x": 245.2,
+     "y": 233.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "s5",
+     "d": 2,
+     "role": "read",
+     "x": 137.4,
+     "y": 298.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "s6",
+     "d": 3,
+     "role": "core",
+     "x": 46.0,
+     "y": 354.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "s1",
+     "b": "s2",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "s2",
+     "b": "s3",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "s3",
+     "b": "s4",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "s4",
+     "b": "s5",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "s5",
+     "b": "s6",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    600.0,
+    400.0
+   ],
+   "standing": "The photon word. The (2,3) open link as the photon is theorem 134.1; the photon docks at both faces, conditional theorem 150.1.",
+   "grade": "conditional"
+  },
+  {
+   "name": "proton",
+   "label": "proton, the star core of record",
+   "family": "composite",
+   "generation": 0,
+   "symbol": "p",
+   "web": "PROTON-SINK-NAMED",
+   "sites": [
+    {
+     "id": "H",
+     "d": 4,
+     "role": "adapter",
+     "x": 442.5,
+     "y": 246.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "J",
+     "d": 3,
+     "role": "adapter",
+     "x": 526.6,
+     "y": 231.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q1",
+     "d": 3,
+     "role": "adapter",
+     "x": 582.3,
+     "y": 145.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q2",
+     "d": 3,
+     "role": "adapter",
+     "x": 584.3,
+     "y": 334.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "Q3",
+     "d": 3,
+     "role": "adapter",
+     "x": 274.2,
+     "y": 232.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "n1",
+     "d": 2,
+     "role": "adapter",
+     "x": 694.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "n2",
+     "d": 2,
+     "role": "adapter",
+     "x": 691.3,
+     "y": 434.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "n3",
+     "d": 2,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 227.5,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "H",
+     "b": "Q1",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "Q2",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "H",
+     "b": "Q3",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "J",
+     "b": "Q1",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "J",
+     "b": "Q2",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "J",
+     "b": "Q3",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "Q1",
+     "b": "n1",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "Q2",
+     "b": "n2",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "Q3",
+     "b": "n3",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    740.0,
+    480.0
+   ],
+   "standing": "The proton as a seeded sink: the seeded saturation is open result 175.1 and the joined read at the roster stars conditional theorem 175.2. Its quark content, two ups and a down, is a reading of its three docks and is not derived.",
+   "grade": "open"
+  },
+  {
+   "name": "hydrogen",
+   "label": "hydrogen, the joined seed EP2S1",
+   "family": "composite",
+   "generation": 0,
+   "symbol": "H atom",
+   "web": "SEED-EP2S1",
+   "sites": [
+    {
+     "id": "e.A",
+     "d": 3,
+     "role": "adapter",
+     "x": 236.1,
+     "y": 379.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.B",
+     "d": 3,
+     "role": "adapter",
+     "x": 325.9,
+     "y": 329.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.C",
+     "d": 3,
+     "role": "adapter",
+     "x": 313.9,
+     "y": 381.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.H",
+     "d": 4,
+     "role": "adapter",
+     "x": 127.7,
+     "y": 422.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.a1",
+     "d": 2,
+     "role": "adapter",
+     "x": 50.6,
+     "y": 443.7,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.a2",
+     "d": 2,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 415.1,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.a3",
+     "d": 2,
+     "role": "adapter",
+     "x": 114.8,
+     "y": 474.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "s.w1=s0",
+     "d": 2,
+     "role": "adapter",
+     "x": 407.4,
+     "y": 263.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "e.w2",
+     "d": 2,
+     "role": "adapter",
+     "x": 356.4,
+     "y": 422.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s1",
+     "d": 2,
+     "role": "adapter",
+     "x": 560.8,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s2",
+     "d": 2,
+     "role": "adapter",
+     "x": 714.0,
+     "y": 122.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s3",
+     "d": 3,
+     "role": "adapter",
+     "x": 490.8,
+     "y": 197.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s4",
+     "d": 3,
+     "role": "adapter",
+     "x": 555.9,
+     "y": 99.8,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s5",
+     "d": 3,
+     "role": "adapter",
+     "x": 631.6,
+     "y": 136.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s6",
+     "d": 3,
+     "role": "adapter",
+     "x": 539.3,
+     "y": 143.2,
+     "beyond_valence": false
+    },
+    {
+     "id": "p.s7",
+     "d": 4,
+     "role": "adapter",
+     "x": 565.2,
+     "y": 155.8,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "e.A",
+     "b": "e.B",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "e.B",
+     "b": "e.C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "e.A",
+     "b": "e.C",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "e.H",
+     "b": "e.A",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "e.H",
+     "b": "e.a1",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "e.H",
+     "b": "e.a2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "e.H",
+     "b": "e.a3",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "e.a1",
+     "b": "e.a2",
+     "genre": "(2,2)",
+     "read": false
+    },
+    {
+     "a": "e.B",
+     "b": "s.w1=s0",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "e.C",
+     "b": "e.w2",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "p.s1",
+     "b": "p.s4",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "p.s2",
+     "b": "p.s5",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "p.s3",
+     "b": "p.s6",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "p.s3",
+     "b": "p.s7",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "p.s4",
+     "b": "p.s6",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "p.s4",
+     "b": "p.s7",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "p.s5",
+     "b": "p.s6",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "p.s5",
+     "b": "p.s7",
+     "genre": "(3,4)",
+     "read": false
+    },
+    {
+     "a": "s.w1=s0",
+     "b": "p.s3",
+     "genre": "(2,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    760.0,
+    520.0
+   ],
+   "standing": "The electron web and the proton joined at a shared dock. Hydrogen from the held carrier is conditional theorem 143.1.",
+   "grade": "conditional"
+  },
+  {
+   "name": "W boson",
+   "label": "W boson",
+   "family": "gauge boson",
+   "generation": 0,
+   "symbol": "W",
+   "web": "r-WPM",
+   "sites": [
+    {
+     "id": "s1",
+     "d": 4,
+     "role": "adapter",
+     "x": 484.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "s2",
+     "d": 2,
+     "role": "read",
+     "x": 381.9,
+     "y": 108.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "s3",
+     "d": 3,
+     "role": "core",
+     "x": 264.5,
+     "y": 180.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "s4",
+     "d": 2,
+     "role": "read",
+     "x": 149.2,
+     "y": 250.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "s5",
+     "d": 4,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 314.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "s1",
+     "b": "s2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "s2",
+     "b": "s3",
+     "genre": "(2,3)",
+     "read": true
+    },
+    {
+     "a": "s3",
+     "b": "s4",
+     "genre": "(2,3)",
+     "read": false
+    },
+    {
+     "a": "s4",
+     "b": "s5",
+     "genre": "(2,4)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    530.0,
+    360.0
+   ],
+   "standing": "The W word, read along one line (heavy). The W word as the passage web of the cross read is open result 159.2.",
+   "grade": "open"
+  },
+  {
+   "name": "Z boson",
+   "label": "Z boson",
+   "family": "gauge boson",
+   "generation": 0,
+   "symbol": "Z",
+   "web": "r-Z0D",
+   "sites": [
+    {
+     "id": "s1",
+     "d": 4,
+     "role": "adapter",
+     "x": 484.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "s2",
+     "d": 2,
+     "role": "read",
+     "x": 381.9,
+     "y": 108.5,
+     "beyond_valence": false
+    },
+    {
+     "id": "s3",
+     "d": 3,
+     "role": "core",
+     "x": 264.5,
+     "y": 180.3,
+     "beyond_valence": false
+    },
+    {
+     "id": "s4",
+     "d": 2,
+     "role": "read",
+     "x": 149.2,
+     "y": 250.9,
+     "beyond_valence": false
+    },
+    {
+     "id": "s5",
+     "d": 4,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 314.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "s1",
+     "b": "s2",
+     "genre": "(2,4)",
+     "read": false
+    },
+    {
+     "a": "s2",
+     "b": "s3",
+     "genre": "(2,3)",
+     "read": true
+    },
+    {
+     "a": "s3",
+     "b": "s4",
+     "genre": "(2,3)",
+     "read": true
+    },
+    {
+     "a": "s4",
+     "b": "s5",
+     "genre": "(2,4)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    530.0,
+    360.0
+   ],
+   "standing": "The same web as the W, read along two lines (heavy): open result 159.1. The ratio of the two offices is 1/2, conditional theorem 164.5; the W over Z mass ratio is open result 160.1.",
+   "grade": "open"
+  },
+  {
+   "name": "gluon",
+   "label": "gluon",
+   "family": "gauge boson",
+   "generation": 0,
+   "symbol": "g",
+   "web": "r-GLU",
+   "sites": [
+    {
+     "id": "s1",
+     "d": 3,
+     "role": "core",
+     "x": 414.0,
+     "y": 46.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "s2",
+     "d": 3,
+     "role": "core",
+     "x": 295.5,
+     "y": 119.4,
+     "beyond_valence": false
+    },
+    {
+     "id": "s3",
+     "d": 3,
+     "role": "core",
+     "x": 164.5,
+     "y": 200.6,
+     "beyond_valence": false
+    },
+    {
+     "id": "s4",
+     "d": 3,
+     "role": "core",
+     "x": 46.0,
+     "y": 274.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "s1",
+     "b": "s2",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "s2",
+     "b": "s3",
+     "genre": "(3,3)",
+     "read": false
+    },
+    {
+     "a": "s3",
+     "b": "s4",
+     "genre": "(3,3)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    460.0,
+    320.0
+   ],
+   "standing": "The gluon word. The strong coupling as the gluon pair-ket office is conditional theorem 149.1.",
+   "grade": "conditional"
+  },
+  {
+   "name": "Higgs",
+   "label": "Higgs",
+   "family": "scalar boson",
+   "generation": 0,
+   "symbol": "H",
+   "web": "r-HIG",
+   "sites": [
+    {
+     "id": "s1",
+     "d": 4,
+     "role": "adapter",
+     "x": 46.0,
+     "y": 194.0,
+     "beyond_valence": false
+    },
+    {
+     "id": "s2",
+     "d": 4,
+     "role": "adapter",
+     "x": 274.0,
+     "y": 46.0,
+     "beyond_valence": false
+    }
+   ],
+   "links": [
+    {
+     "a": "s1",
+     "b": "s2",
+     "genre": "(4,4)",
+     "read": false
+    }
+   ],
+   "viewbox": [
+    0.0,
+    0.0,
+    320.0,
+    240.0
+   ],
+   "standing": "The Higgs as the closed hub read, conditional theorem 200.1.",
+   "grade": "conditional"
+  }
+ ]
+}

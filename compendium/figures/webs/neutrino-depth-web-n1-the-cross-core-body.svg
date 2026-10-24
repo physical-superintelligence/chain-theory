@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 764.0 538.0" width="764" height="538" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="764.0" height="538.0" fill="#ffffff"/>
+<line x1="600.7" y1="270.1" x2="673.1" y2="128.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="636.9" y="194.5" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="600.7" y1="270.1" x2="714.0" y2="221.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="657.4" y="240.7" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="673.1" y1="128.9" x2="714.0" y2="221.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="693.5" y="170.1" font-size="13" fill="#555" text-anchor="middle">(2,2)</text>
+<line x1="600.7" y1="270.1" x2="430.9" y2="283.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="515.8" y="271.8" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="430.9" y1="283.5" x2="260.6" y2="300.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="345.8" y="286.8" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="260.6" y1="300.1" x2="170.1" y2="409.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="215.4" y="349.7" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="260.6" y1="300.1" x2="228.4" y2="474.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="244.5" y="382.1" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="260.6" y1="300.1" x2="143.8" y2="154.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="202.2" y="222.3" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="170.1" y1="409.3" x2="228.4" y2="474.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="199.2" y="436.6" font-size="13" fill="#555" text-anchor="middle">(2,2)</text>
+<line x1="600.7" y1="270.1" x2="668.7" y2="424.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="634.7" y="342.5" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="143.8" y1="154.5" x2="46.0" y2="46.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="94.9" y="95.2" font-size="13" fill="#555" text-anchor="middle">(2,2)</text>
+<circle cx="600.7" cy="270.1" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="600.7" y="275.1" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">H</text>
+<text x="600.7" y="303.1" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+<circle cx="673.1" cy="128.9" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="673.1" y="133.9" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">q1</text>
+<text x="673.1" y="161.9" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="714.0" cy="221.2" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="714.0" y="226.2" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">q2</text>
+<text x="714.0" y="254.2" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="430.9" cy="283.5" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="430.9" y="288.5" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">c1</text>
+<text x="430.9" y="316.5" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="260.6" cy="300.1" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="260.6" y="305.1" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">H1</text>
+<text x="260.6" y="333.1" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+<circle cx="170.1" cy="409.3" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="170.1" y="414.3" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">a1</text>
+<text x="170.1" y="442.3" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="228.4" cy="474.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="228.4" y="479.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">b1</text>
+<text x="228.4" y="507.0" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="143.8" cy="154.5" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="143.8" y="159.5" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">o1</text>
+<text x="143.8" y="187.5" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="668.7" cy="424.9" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="668.7" y="429.9" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">p1</text>
+<text x="668.7" y="457.9" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="46.0" cy="46.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="46.0" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">p2</text>
+<text x="46.0" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+</svg>

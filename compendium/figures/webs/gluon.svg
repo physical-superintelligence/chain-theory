@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 464.0 338.0" width="464" height="338" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="464.0" height="338.0" fill="#ffffff"/>
+<line x1="414.0" y1="46.0" x2="295.5" y2="119.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="354.8" y="77.7" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="295.5" y1="119.4" x2="164.5" y2="200.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="230.0" y="155.0" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="164.5" y1="200.6" x2="46.0" y2="274.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="105.2" y="232.3" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<circle cx="414.0" cy="46.0" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="414.0" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s1</text>
+<text x="414.0" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="295.5" cy="119.4" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="295.5" y="124.4" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s2</text>
+<text x="295.5" y="152.4" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="164.5" cy="200.6" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="164.5" y="205.6" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s3</text>
+<text x="164.5" y="233.6" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="46.0" cy="274.0" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="46.0" y="279.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s4</text>
+<text x="46.0" y="307.0" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+</svg>

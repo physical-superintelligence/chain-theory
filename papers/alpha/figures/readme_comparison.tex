@@ -1,0 +1,13 @@
+% The Letter's Figure 3 (fig_comparison.tex) on its own, for the repository README.
+% The figure is input unchanged; only the float, the caption, the label and the citation marks are dropped,
+% since the README's caption names the sources. Build with ./readme_figure.sh.
+\documentclass[border=8pt]{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\renewenvironment{figure}[1][]{}{}
+\renewcommand{\caption}[1]{}
+\renewcommand{\label}[1]{}
+\renewcommand{\cite}[1]{}
+\begin{document}
+\input{fig_comparison.tex}
+\end{document}

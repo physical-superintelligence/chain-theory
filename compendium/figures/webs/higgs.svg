@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 324.0 258.0" width="324" height="258" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="324.0" height="258.0" fill="#ffffff"/>
+<line x1="46.0" y1="194.0" x2="274.0" y2="46.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="160.0" y="115.0" font-size="13" fill="#555" text-anchor="middle">(4,4)</text>
+<circle cx="46.0" cy="194.0" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="46.0" y="199.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s1</text>
+<text x="46.0" y="227.0" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+<circle cx="274.0" cy="46.0" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="274.0" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s2</text>
+<text x="274.0" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+</svg>

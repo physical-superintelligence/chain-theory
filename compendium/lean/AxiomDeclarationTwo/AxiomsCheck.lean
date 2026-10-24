@@ -1,0 +1,156 @@
+import AxiomDeclarationTwo
+set_option autoImplicit false
+
+#print axioms AxiomDeclarationTwo.pairAdmittedTwo
+#print axioms AxiomDeclarationTwo.WorldTwo
+#print axioms AxiomDeclarationTwo.WorldTwo.qudit
+#print axioms AxiomDeclarationTwo.WorldTwo.allQudits
+#print axioms AxiomDeclarationTwo.WorldTwo.pairsAt
+#print axioms AxiomDeclarationTwo.WorldTwo.valence
+#print axioms AxiomDeclarationTwo.WorldTwo.shared
+#print axioms AxiomDeclarationTwo.WorldTwo.sharing
+#print axioms AxiomDeclarationTwo.WorldTwo.sharedQudits
+#print axioms AxiomDeclarationTwo.WorldTwo.someShared
+#print axioms AxiomDeclarationTwo.WorldTwo.support
+#print axioms AxiomDeclarationTwo.WorldTwo.genre
+#print axioms AxiomDeclarationTwo.WorldTwo.genres
+#print axioms AxiomDeclarationTwo.WorldTwo.oneDimensionAt
+#print axioms AxiomDeclarationTwo.WorldTwo.oneDimension
+#print axioms AxiomDeclarationTwo.WorldTwo.sharedEnd
+#print axioms AxiomDeclarationTwo.WorldTwo.sharedByDimension
+#print axioms AxiomDeclarationTwo.WorldTwo.sharedEither
+#print axioms AxiomDeclarationTwo.WorldTwo.someSharedEither
+#print axioms AxiomDeclarationTwo.WorldTwo.farEnd
+#print axioms AxiomDeclarationTwo.WorldTwo.commonSupport
+#print axioms AxiomDeclarationTwo.WorldTwo.distil
+#print axioms AxiomDeclarationTwo.WorldTwo.readAdmitted
+#print axioms AxiomDeclarationTwo.WorldTwo.readsOf
+#print axioms AxiomDeclarationTwo.WorldTwo.passedTo
+#print axioms AxiomDeclarationTwo.WorldTwo.directions
+#print axioms AxiomDeclarationTwo.WorldTwo.readBound
+#print axioms AxiomDeclarationTwo.WorldTwo.withinReadBound
+#print axioms AxiomDeclarationTwo.WorldTwo.record
+#print axioms AxiomDeclarationTwo.WorldTwo.known
+#print axioms AxiomDeclarationTwo.WorldTwo.furtherRecord
+#print axioms AxiomDeclarationTwo.WorldTwo.orderSign
+#print axioms AxiomDeclarationTwo.pairAdmittedTwo_of_first
+#print axioms AxiomDeclarationTwo.ofWorld
+#print axioms AxiomDeclarationTwo.WorldTwo.toWorld?
+#print axioms AxiomDeclarationTwo.WorldTwo.isFirstEdition
+#print axioms AxiomDeclarationTwo.worldTwoThree
+#print axioms AxiomDeclarationTwo.worldTwoHub
+#print axioms AxiomDeclarationTwo.worldTwoSix
+
+#print axioms AxiomDeclarationTwo.pair_end_a_lt
+#print axioms AxiomDeclarationTwo.pair_end_b_lt
+#print axioms AxiomDeclarationTwo.admitted_of_mem
+#print axioms AxiomDeclarationTwo.ends_distinct_of_mem
+#print axioms AxiomDeclarationTwo.support_le_a
+#print axioms AxiomDeclarationTwo.support_le_b
+#print axioms AxiomDeclarationTwo.shared_iff
+#print axioms AxiomDeclarationTwo.known_iff
+#print axioms AxiomDeclarationTwo.readBound_iff
+#print axioms AxiomDeclarationTwo.ofWorld_fields
+#print axioms AxiomDeclarationTwo.ofWorld_isFirstEdition
+#print axioms AxiomDeclarationTwo.toWorld_isSome_iff
+#print axioms AxiomDeclarationTwo.worldTwoThree_counts
+#print axioms AxiomDeclarationTwo.worldTwoThree_support
+#print axioms AxiomDeclarationTwo.worldTwoThree_shared_end
+#print axioms AxiomDeclarationTwo.worldTwoThree_sharing
+#print axioms AxiomDeclarationTwo.worldTwoThree_not_first_edition
+#print axioms AxiomDeclarationTwo.worldTwoThree_bound_known
+#print axioms AxiomDeclarationTwo.worldTwoThree_reads
+#print axioms AxiomDeclarationTwo.worldTwoHub_sharing
+#print axioms AxiomDeclarationTwo.worldTwoSix_genres
+#print axioms AxiomDeclarationTwo.worldTwoSix_shared
+#print axioms AxiomDeclarationTwo.first_edition_examples
+#print axioms AxiomDeclarationTwo.first_edition_examples_back
+
+#print axioms AxiomDeclarationTwo.worldTwoToWeb
+#print axioms AxiomDeclarationTwo.webToWorldTwo?
+#print axioms AxiomDeclarationTwo.isWorldTwo
+#print axioms AxiomDeclarationTwo.actApplyTwo
+#print axioms AxiomDeclarationTwo.actAdmittedTwo
+#print axioms AxiomDeclarationTwo.actInstancesTwo
+#print axioms AxiomDeclarationTwo.actWitness
+#print axioms AxiomDeclarationTwo.admittedAtWitness
+#print axioms AxiomDeclarationTwo.witnessIsWorldTwo
+#print axioms AxiomDeclarationTwo.witnessBeyond
+#print axioms AxiomDeclarationTwo.witnessCensus
+#print axioms AxiomDeclarationTwo.firstActAtNoWitness
+#print axioms AxiomDeclarationTwo.unequalAtWitness
+#print axioms AxiomDeclarationTwo.equalAtWitness
+#print axioms AxiomDeclarationTwo.witnessGenreRemet
+#print axioms AxiomDeclarationTwo.witnessDeltasRemet
+
+#print axioms AxiomDeclarationTwo.runStatesGo
+#print axioms AxiomDeclarationTwo.wordStatesTwo
+#print axioms AxiomDeclarationTwo.wordAtTwo
+#print axioms AxiomDeclarationTwo.wordStatesAtTwo
+#print axioms AxiomDeclarationTwo.wordsAtTwo
+#print axioms AxiomDeclarationTwo.wordsStatesAtTwo
+#print axioms AxiomDeclarationTwo.firstWordNotAtTwo
+#print axioms AxiomDeclarationTwo.worldsTwoAmongAhead
+#print axioms AxiomDeclarationTwo.firstEditionAmongAhead
+
+#print axioms AxiomDeclarationTwo.recordWorldsTwo
+#print axioms AxiomDeclarationTwo.exampleWorldsTwo
+#print axioms AxiomDeclarationTwo.worldsOfRecordTwo
+#print axioms AxiomDeclarationTwo.worldsTwoAmongRecord
+#print axioms AxiomDeclarationTwo.worldsTwoAmongSinks
+#print axioms AxiomDeclarationTwo.firstEditionAmongSinks
+#print axioms AxiomDeclarationTwo.structureTwoAdmissionCensus
+#print axioms AxiomDeclarationTwo.censusTwoEqualsWeb
+#print axioms AxiomDeclarationTwo.actsAdmittedNowhereAtTwo
+#print axioms AxiomDeclarationTwo.firstActNowhereAtTwo
+#print axioms AxiomDeclarationTwo.actsAdmittedSomewhereAtTwo
+#print axioms AxiomDeclarationTwo.unequalSomewhereAtTwo
+#print axioms AxiomDeclarationTwo.equalSomewhereAtTwo
+#print axioms AxiomDeclarationTwo.closureTwoAt
+#print axioms AxiomDeclarationTwo.closureTwoOver
+
+#print axioms AxiomDeclarationTwo.acts_counts
+#print axioms AxiomDeclarationTwo.words_count
+#print axioms AxiomDeclarationTwo.record_worlds_two
+#print axioms AxiomDeclarationTwo.record_worlds_first
+#print axioms AxiomDeclarationTwo.witnessWorlds
+#print axioms AxiomDeclarationTwo.witness_worlds
+#print axioms AxiomDeclarationTwo.every_act_at_witness
+#print axioms AxiomDeclarationTwo.witness_by_genre
+#print axioms AxiomDeclarationTwo.witness_deltas_genres
+#print axioms AxiomDeclarationTwo.closure_at_witnesses
+#print axioms AxiomDeclarationTwo.words_at_two
+#print axioms AxiomDeclarationTwo.record_within_read_bound
+#print axioms AxiomDeclarationTwo.six_genres_of_record
+#print axioms AxiomDeclarationTwo.example_worlds
+
+#print axioms AxiomDeclarationTwo.shardWorldsA
+#print axioms AxiomDeclarationTwo.closure_two_A
+#print axioms AxiomDeclarationTwo.instances_two_eq_web_A
+
+#print axioms AxiomDeclarationTwo.shardWorldsB
+#print axioms AxiomDeclarationTwo.closure_two_B
+#print axioms AxiomDeclarationTwo.instances_two_eq_web_B
+
+#print axioms AxiomDeclarationTwo.shardWorldsC
+#print axioms AxiomDeclarationTwo.closure_two_C
+#print axioms AxiomDeclarationTwo.instances_two_eq_web_C
+
+#print axioms AxiomDeclarationTwo.shardWorldsD
+#print axioms AxiomDeclarationTwo.closure_two_D
+#print axioms AxiomDeclarationTwo.instances_two_eq_web_D
+
+#print axioms AxiomDeclarationTwo.shardWorldsE
+#print axioms AxiomDeclarationTwo.closure_two_E
+#print axioms AxiomDeclarationTwo.instances_two_eq_web_E
+
+#print axioms AxiomDeclarationTwo.shardWorldsF
+#print axioms AxiomDeclarationTwo.closure_two_F
+#print axioms AxiomDeclarationTwo.instances_two_eq_web_F
+
+#print axioms AxiomDeclarationTwo.unequal_refused_at_first
+#print axioms AxiomDeclarationTwo.words_at_first
+#print axioms AxiomDeclarationTwo.shards_whole
+#print axioms AxiomDeclarationTwo.firstEditionWorldsEmbedded
+#print axioms AxiomDeclarationTwo.closure_at_examples
+#print axioms AxiomDeclarationTwo.embedded_read_back

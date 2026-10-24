@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 764.0 538.0" width="764" height="538" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="764.0" height="538.0" fill="#ffffff"/>
+<line x1="409.6" y1="273.7" x2="544.3" y2="172.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="476.9" y="218.3" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="544.3" y1="172.9" x2="577.5" y2="296.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="560.9" y="229.9" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="409.6" y1="273.7" x2="577.5" y2="296.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="493.6" y="280.3" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="199.7" y1="327.7" x2="409.6" y2="273.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="304.6" y="295.7" font-size="13" fill="#555" text-anchor="middle">(4,3)</text>
+<line x1="199.7" y1="327.7" x2="46.0" y2="332.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="122.8" y="325.3" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="199.7" y1="327.7" x2="74.7" y2="246.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="137.2" y="281.9" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="199.7" y1="327.7" x2="153.7" y2="474.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="176.7" y="395.9" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="46.0" y1="332.9" x2="74.7" y2="246.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="60.4" y="284.5" font-size="13" fill="#555" text-anchor="middle">(2,2)</text>
+<line x1="544.3" y1="172.9" x2="627.3" y2="46.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="585.8" y="104.5" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<line x1="577.5" y1="296.9" x2="714.0" y2="368.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="645.8" y="327.5" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<circle cx="409.6" cy="273.7" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="409.6" y="278.7" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">A</text>
+<text x="409.6" y="306.7" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="544.3" cy="172.9" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="544.3" y="177.9" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">B</text>
+<text x="544.3" y="205.9" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="577.5" cy="296.9" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="577.5" y="301.9" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">C</text>
+<text x="577.5" y="329.9" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="199.7" cy="327.7" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="199.7" y="332.7" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">H</text>
+<text x="199.7" y="360.7" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+<circle cx="46.0" cy="332.9" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="46.0" y="337.9" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">a1</text>
+<text x="46.0" y="365.9" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="74.7" cy="246.1" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="74.7" y="251.1" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">a2</text>
+<text x="74.7" y="279.1" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="153.7" cy="474.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="153.7" y="479.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">a3</text>
+<text x="153.7" y="507.0" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="627.3" cy="46.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="627.3" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">w1</text>
+<text x="627.3" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="714.0" cy="368.1" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="714.0" y="373.1" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">w2</text>
+<text x="714.0" y="401.1" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+</svg>

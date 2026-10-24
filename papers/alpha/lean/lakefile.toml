@@ -1,0 +1,7 @@
+name = "chain-alpha"
+version = "1.0.0"
+defaultTargets = ["ChainAlpha"]
+
+# Core Lean only: no dependencies, no imports.
+[[lean_lib]]
+name = "ChainAlpha"

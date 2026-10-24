@@ -1,0 +1,163 @@
+number	title	first_section	last_section	mapped_by	module_numbering_first	module_numbering_last	module_numbering_title	times_cited
+1-0	The framework: the Axiom and the six definitions	FRAMEWORK	FRAMEWORK	fifteen				23
+1-1	The axiom and the six definitions	I-1-axiom-and-the-six-definitions	I-1-D541156-wslv-t1	fifteen				70
+1-2	The link and its six genres	I-2-link-and-its-six-genres	I-2-D543154-w-tntp	fifteen				164
+1-3	Records, reads and the Born count: the gain lemma	I-3-records-reads-and-the-born-count-the-gain-lemma	I-3-D540846-phjr-t1	fifteen				81
+1-4	The moves in one table	I-4-moves-in-one-table	I-4-D543848-w-hfbk	fifteen				103
+1-5	The saturation in one figure: seeds, waves, termination, sinks	I-5-saturation-in-one-figure-seeds-waves-termination-sinks	I-5-D544009-w-jnwc	fifteen				174
+1-6	The read at a register: the probe and the measurement	I-6-read-at-a-register-the-probe-and-the-measurement	I-6-D536293-w-rbac	fifteen				82
+1-7	The Rosetta table in full	I-7-rosetta-table-in-full	I-7-rosetta-table-in-full	twelve				21
+1-L	The instrument tables of this Part	I-L-the-instrument-tables-at-the-repository	I-L-the-instrument-tables-at-the-repository	fifteen				1
+2-1	Chain automata: the definition, the locality, the cone and the regeneration	X-12-chain-automata-the-definition-the-locality-the-cone-and-the-regeneration	X-12-D545732-w-rgse	twelve	II-1-state-space-from-the-act-outputs	II-1-D541352-tfpk-t1	The state space from the act outputs	10
+2-2	The chain automaton figures			none	II-2-born-rule-and-unitarity	II-2-born-rule-and-unitarity	The Born rule and unitarity	8
+2-3	The join as the non local level of the automaton			none	II-3-uncertainty-relation-from-the-weyl-relation	II-3-uncertainty-relation-from-the-weyl-relation	The uncertainty relation from the Weyl relation	1
+2-4	Open as the undistilled end			none	II-4-measurement-the-wash-at-one-act-and-the-povm	II-4-measurement-the-wash-at-one-act-and-the-povm	Measurement: the wash at one act and the POVM	3
+2-5	The frame as the stabiliser of the maximally entangled pair			none	II-5-indistinguishability-and-the-spin-statistics-sign	II-5-indistinguishability-and-the-spin-statistics-sign	Indistinguishability and the spin-statistics sign	6
+2-6	The frame at a site as the meet of the incident link frames			none	II-6-energy-and-the-hamiltonian-the-first-power-operator-and-the-step	II-6-energy-and-the-hamiltonian-the-first-power-operator-and-the-step	Energy and the Hamiltonian: the first-power operator and the step	2
+2-7				none	II-7-path-integral-as-the-finite-record-sum	II-7-path-integral-as-the-finite-record-sum	The path integral as the finite record sum	1
+2-8				none	II-8-wigner-function-and-the-many-body-sign	II-8-wigner-function-and-the-many-body-sign	The Wigner function and the many-body sign	2
+2-9				none	II-9-qm-corollaries-the-fifteen-entries	II-9-D539176-w-tprd	The QM corollaries: the fifteen entries	4
+2-10				none	II-10-decoherence-and-the-open-system	II-10-D536583-psyo-t1	Decoherence and the open system	6
+2-L	The instrument tables of this Part	II-L-the-instrument-tables-at-the-repository	II-L-the-instrument-tables-at-the-repository	fifteen				1
+3-1	The state space from the act outputs	II-1-state-space-from-the-act-outputs	II-1-D541352-tfpk-t1	fifteen	III-1-order-coordinate-and-its-theorem	III-1-D543820-w-tkud	The order coordinate and its theorem	70
+3-2	The Born rule and unitarity	II-2-born-rule-and-unitarity	II-2-born-rule-and-unitarity	fifteen	III-2-rotation-group	III-2-rotation-group	The rotation group	12
+3-3	The uncertainty relation from the Weyl relation	II-3-uncertainty-relation-from-the-weyl-relation	II-3-uncertainty-relation-from-the-weyl-relation	fifteen	III-3-lorentz-group-and-the-signature	III-3-D543402-emis-t1	The Lorentz group and the signature	28
+3-4	Measurement: the wash at one act and the POVM	II-4-measurement-the-wash-at-one-act-and-the-povm	II-4-measurement-the-wash-at-one-act-and-the-povm	fifteen	III-4-boosts-and-the-one-unit	III-4-boosts-and-the-one-unit	Boosts and the one unit	18
+3-5	Indistinguishability and the spin-statistics sign	II-5-indistinguishability-and-the-spin-statistics-sign	II-5-indistinguishability-and-the-spin-statistics-sign	fifteen	III-5-spin-and-helicity	III-5-D542908-spcf-t1	Spin and helicity	39
+3-6	Energy and the Hamiltonian: the first-power operator and the step	II-6-energy-and-the-hamiltonian-the-first-power-operator-and-the-step	II-6-energy-and-the-hamiltonian-the-first-power-operator-and-the-step	fifteen	III-6-p-c-t-and-cpt	III-6-D542993-nvli-t1	P, C, T and CPT	32
+3-7	The path integral as the finite record sum	II-7-path-integral-as-the-finite-record-sum	II-7-path-integral-as-the-finite-record-sum	fifteen	III-7-order-theorem-group-moves-and-transfers	III-7-order-theorem-group-moves-and-transfers	The order theorem: group moves and transfers	29
+3-8	The Wigner function and the many-body sign	II-8-wigner-function-and-the-many-body-sign	II-8-wigner-function-and-the-many-body-sign	fifteen	III-8-causal-structure-and-general-covariance	III-8-causal-structure-and-general-covariance	Causal structure and general covariance	9
+3-9	The QM corollaries: the fifteen entries	II-9-qm-corollaries-the-fifteen-entries	II-9-D539176-w-tprd	fifteen				8
+3-L	The instrument tables of this Part	III-L-the-instrument-tables-at-the-repository	III-L-the-instrument-tables-at-the-repository	fifteen				1
+4-1	The order coordinate and its theorem	III-1-order-coordinate-and-its-theorem	III-1-D543820-w-tkud	fifteen	IV-1-gauge-invariance-as-the-known-clause	IV-1-gauge-invariance-as-the-known-clause	Gauge invariance as the known clause	40
+4-2	The rotation group	III-2-rotation-group	III-2-rotation-group	fifteen	IV-2-gauge-group-as-a-corollary-of-one-construction	IV-2-gauge-group-as-a-corollary-of-one-construction	The gauge group as a corollary of one construction	14
+4-3	The Lorentz group and the signature	III-3-lorentz-group-and-the-signature	III-3-D543402-emis-t1	fifteen	IV-3-representations-from-the-open-end-census	IV-3-D543954-the-wave-as-the-carrier-advance-and-the-removing-moves	The representations from the open-end census	62
+4-4	Boosts and the one unit	III-4-boosts-and-the-one-unit	III-4-boosts-and-the-one-unit	fifteen	IV-4-cartan-weights-and-the-charge	IV-4-cartan-weights-and-the-charge	The Cartan weights and the charge	24
+4-5	Spin and helicity	III-5-spin-and-helicity	III-5-D542908-spcf-t1	fifteen	IV-5-sign-from-the-side-of-the-acting-site	IV-5-sign-from-the-side-of-the-acting-site	The sign from the side of the acting site	12
+4-6	P, C, T and CPT	III-6-p-c-t-and-cpt	III-6-D542993-nvli-t1	fifteen	IV-6-conservation-as-the-kernel-of-the-move-matrix	IV-6-D538128-w-apkc	Conservation as the kernel of the move matrix	35
+4-7	The order theorem: group moves and transfers	III-7-order-theorem-group-moves-and-transfers	III-7-order-theorem-group-moves-and-transfers	fifteen	IV-7-noether-at-the-sinks-and-the-kernel-identification	IV-7-D539098-kcfm-t1	Noether at the sinks and the kernel identification	6
+4-8	Causal structure and general covariance	III-8-causal-structure-and-general-covariance	III-8-causal-structure-and-general-covariance	twelve	IV-8-ward-identity-and-the-anomaly-sums	IV-8-D540512-aedd-t1	The Ward identity and the anomaly sums	13
+4-8b				none	IV-8b-D540345-the-lagrangian-table-at-the-twelve-slots	IV-8b-D540540-the-twelve-slots-at-both-definitions	The Lagrangian table at the twelve slots	3
+4-8d				none	IV-8d-D539836-the-six-genres-as-the-pairs-of-the-three-registers	IV-8d-D542638-trgs-t1	The six genres as the pairs of the three registers	14
+4-8e				none	IV-8e-D542297-the-body-membership-census-at-the-six-cells	IV-8e-D543430-the-anatomy-atlas-of-the-landed-sinks	The body membership census at the six cells	14
+4-8f				none	IV-8f-D542554-w-msrg	IV-8f-D542664-nctg-t1	The ququart as the register of the first power	5
+4-9				none	IV-9-one-rule-of-a-read-and-the-word-table	IV-9-one-rule-of-a-read-and-the-word-table	The one rule of a read and the word table	5
+4-10				none	IV-10-sm-table-the-75-entries-with-their-status	IV-10-D541267-internal-dictionary-release-fourteen	The standard-model table: the seventy-five entries with their status	13
+4-12				none	IV-12-face-groups-of-the-six-cells	IV-12-face-groups-of-the-six-cells	The face groups of the six cells	1
+4-L	The instrument tables of this Part	IV-L-the-instrument-tables-at-the-repository	IV-L-the-instrument-tables-at-the-repository	fifteen				1
+5-1	Gauge invariance as the known clause	IV-1-gauge-invariance-as-the-known-clause	IV-1-gauge-invariance-as-the-known-clause	fifteen	V-1-fine-structure-constant-at-the-one-link	V-1-D543680-w-rmdf	The fine-structure constant at the one link: the infrared restatement with the Photon Conjecture	69
+5-2	The gauge group as a corollary of one construction	IV-2-gauge-group-as-a-corollary-of-one-construction	IV-2-gauge-group-as-a-corollary-of-one-construction	fifteen	V-2-electron-anomalous-dipole-factor-through-order-three	V-2-electron-anomalous-dipole-factor-through-order-three	The electron anomalous dipole factor through order three	19
+5-3	The representations from the open-end census	IV-3-representations-from-the-open-end-census	IV-3-D543954-the-wave-as-the-carrier-advance-and-the-removing-moves	fifteen	V-3-muon-anomalous-dipole-factor	V-3-muon-anomalous-dipole-factor	The muon anomalous dipole factor	65
+5-4	The Cartan weights and the charge	IV-4-cartan-weights-and-the-charge	IV-4-cartan-weights-and-the-charge	fifteen	V-4-hydrogen-the-rydberg-ladder-and-the-fine-structure	V-4-D538525-w-hyjh	Hydrogen: the Rydberg ladder and the fine structure	19
+5-5	The sign from the side of the acting site	IV-5-sign-from-the-side-of-the-acting-site	IV-5-sign-from-the-side-of-the-acting-site	fifteen	V-5-lamb-shift-and-the-casimir-effect	V-5-lamb-shift-and-the-casimir-effect	The Lamb shift and the Casimir effect	15
+5-6	Conservation as the kernel of the move matrix	IV-6-conservation-as-the-kernel-of-the-move-matrix	IV-6-D538128-w-apkc	fifteen	V-6-finiteness-without-renormalization-the-finite-record-sum-and-the-order-grading	V-6-finiteness-without-renormalization-the-finite-record-sum-and-the-order-grading	Finiteness without renormalization: the finite record sum and the order grading	21
+5-7	Noether at the sinks and the kernel identification	IV-7-noether-at-the-sinks-and-the-kernel-identification	IV-7-D539098-kcfm-t1	fifteen	V-7-running-of-the-coupling	V-7-D539977-aszb-t1	The running of the coupling	36
+5-8	The Ward identity and the anomaly sums	IV-8-ward-identity-and-the-anomaly-sums	IV-8-D540512-aedd-t1	fifteen	V-8-photon-docking-the-join-face-and-pair-production	V-8-D539949-phpk-t1	The photon: docking, the join face and pair production	33
+5-8f	The mass register and the generations	IV-8f-D542554-w-msrg	IV-8f-D542664-nctg-t1	fifteen				31
+5-9	The one rule of a read and the word table	IV-9-one-rule-of-a-read-and-the-word-table	IV-9-one-rule-of-a-read-and-the-word-table	fifteen	V-9-dirac-equation-at-the-dock	V-9-D538654-w-fcgd	The Dirac equation at the dock	37
+5-10	The SM table: the 75 entries with their status	IV-10-sm-table-the-75-entries-with-their-status	IV-10-D541267-internal-dictionary-release-fourteen	twelve	V-10-lepton-ladder-as-hub-assemblies	V-10-D540869-tthc-t1	The lepton ladder as hub assemblies	8
+5-11	The quantum numbers of every body as the end counts of its membership	IV-11-quantum-numbers-of-every-body-as-the-end-counts-of-its-membership	IV-11-quantum-numbers-of-every-body-as-the-end-counts-of-its-membership	fifteen	V-11-face-dissolution-the-leg-count-and-the-exponent	V-11-D543290-w-grfn	The face dissolution, the leg count and the exponent	14
+5-13	The diagonal self couplings in one form	IV-13-diagonal-self-couplings-in-one-form	IV-13-diagonal-self-couplings-in-one-form	fifteen				27
+5-15	The unconserved sites as the hub acts	IV-15-unconserved-sites-as-the-hub-acts	IV-15-unconserved-sites-as-the-hub-acts	fifteen				23
+5-16	The frame at every end as the stabiliser of its dimension	IV-16-frame-at-every-end-as-the-stabiliser-of-its-dimension	IV-16-frame-at-every-end-as-the-stabiliser-of-its-dimension	fifteen				13
+5-L	The instrument tables of this Part	V-L-the-instrument-tables-at-the-repository	V-L-the-instrument-tables-at-the-repository	fifteen				1
+6-1	Curvature as the graph Laplacian washed over the ladder	X-1-curvature-as-the-graph-laplacian-washed-over-the-ladder	X-1-D541211-w-cvcf	fifteen	VI-1-hub-step-as-the-weak-interaction	VI-1-hub-step-as-the-weak-interaction	The hub step as the weak interaction	38
+6-2	The field equation at the counting face	X-2-field-equation-at-the-counting-face	X-2-D543764-w-flfw	fifteen	VI-2-w-and-the-z-and-their-masses	VI-2-D540739-w-wzdk	The W and the Z and their masses	41
+6-2a	The area law at the cut	X-2a-D542325-w-arlw	X-2a-D542325-w-arlw	fifteen	VI-2a-2-4-genre-the-carrier-legs-and-the-neutral-lepton-ports	VI-2a-D542880-w-wkar	The (2,4) genre: the carrier legs and the neutral-lepton ports	11
+6-2b				none	VI-2b-neutral-lepton-the-hub-unit-with-its-legs-open	VI-2b-neutral-lepton-the-hub-unit-with-its-legs-open	The neutral lepton: the hub unit with its legs open	6
+6-3	The horizon at every rung and the horizon web as a seeded saturation	X-3-horizon-at-every-rung-and-the-horizon-web-as-a-seeded-saturation	X-3-D543792-abrh-t1	fifteen	VI-3-doublets-handedness-and-parity-violation	VI-3-doublets-handedness-and-parity-violation	The doublets, handedness and parity violation	40
+6-4	Depth: the growth order and the termination wave	X-4-depth-the-growth-order-and-the-termination-wave	X-4-D544119-w-pwcd	fifteen	VI-4-charged-and-neutral-currents	VI-4-D538994-w-cchs	The charged and neutral currents	43
+6-5	The register tower and the metric	X-5-register-tower-and-the-metric	X-5-D542610-lgtw-t1	fifteen	VI-5-fermi-constant-and-the-muon-decay	VI-5-D538919-w-fcwo	The Fermi constant and the muon decay	10
+6-6	The cosmological term at the depth exponent	X-6-cosmological-term-at-the-depth-exponent	X-6-D542582-w-tktu	fifteen	VI-6-weak-angle	VI-6-D539645-w-wbsq	The weak angle	21
+6-7	Dark matter as the dock-free sinks	X-7-dark-matter-as-the-dock-free-sinks	X-7-dark-matter-as-the-dock-free-sinks	fifteen	VI-7-mixing-the-washed-overlap-and-the-ckm-block	VI-7-D543182-w-mxog	Mixing, the washed overlap and the CKM block	51
+6-7a	The depth of the universe web	X-7a-D542798-w-ncgu	X-7a-D542798-w-ncgu	fifteen	VI-7a-D541324-w-yklo	VI-7a-D541324-w-yklo	The Yukawa as the (3,4)-leg office at every body	24
+6-8	The horizon as a non-sink: the Hubble rate and the baryon asymmetry	X-8-horizon-as-a-non-sink-the-hubble-rate-and-the-baryon-asymmetry	X-8-horizon-as-a-non-sink-the-hubble-rate-and-the-baryon-asymmetry	twelve	VI-8-beta-decay-and-the-boson-widths	VI-8-beta-decay-and-the-boson-widths	Beta decay and the boson widths	6
+6-9	The gravitational and cosmological constants table	X-9-gravitational-and-cosmological-constants-table	X-9-gravitational-and-cosmological-constants-table	twelve	VI-9-electroweak-table	VI-9-D543021-vcst-t1	The electroweak table	11
+6-10	The tick scale as a coupling scale	X-10-tick-scale-as-a-coupling-scale	X-10-tick-scale-as-a-coupling-scale	fifteen	VI-10-higgs-the-closed-hub-read-its-rows-its-mass-and-its-exponent	VI-10-D540200-hqrt-t1	The Higgs: the closed hub read, its rows, its mass and its exponent	90
+6-11	The frame as the qubit end of the two two link	X-11-frame-as-the-qubit-end-of-the-two-two-link	X-11-frame-as-the-qubit-end-of-the-two-two-link	fifteen				1
+6-L	The instrument tables of this Part	VI-L-the-instrument-tables-at-the-repository	VI-L-the-instrument-tables-at-the-repository	fifteen				1
+7-1	The fine-structure constant at the one link: the infrared restatement with the Photon Conjecture	V-1-fine-structure-constant-at-the-one-link	V-1-D543680-w-rmdf	fifteen	VII-1-confinement-as-the-dark-genre-readability	VII-1-confinement-as-the-dark-genre-readability	Confinement as the dark-genre readability	62
+7-2	The electron anomalous dipole factor through order three	V-2-electron-anomalous-dipole-factor-through-order-three	V-2-electron-anomalous-dipole-factor-through-order-three	fifteen	VII-2-strong-coupling	VII-2-D543568-scds-t1	The strong coupling	21
+7-3	The muon anomalous dipole factor	V-3-muon-anomalous-dipole-factor	V-3-muon-anomalous-dipole-factor	twelve	VII-3-nucleon-structure-and-the-form-factor	VII-3-nucleon-structure-and-the-form-factor	Nucleon structure and the form factor	13
+7-4	Hydrogen: the Rydberg ladder and the fine structure	V-4-hydrogen-the-rydberg-ladder-and-the-fine-structure	V-4-D538525-w-hyjh	fifteen	VII-4-proton-as-a-seeded-sink	VII-4-proton-as-a-seeded-sink	The proton as a seeded sink	33
+7-5	The Lamb shift and the Casimir effect	V-5-lamb-shift-and-the-casimir-effect	V-5-lamb-shift-and-the-casimir-effect	fifteen	VII-5-proton-to-electron-ratio-a-candidate	VII-5-proton-to-electron-ratio-a-candidate	The proton-to-electron ratio: a candidate	13
+7-6	Finiteness without renormalization: the finite record sum and the order grading	V-6-finiteness-without-renormalization-the-finite-record-sum-and-the-order-grading	V-6-finiteness-without-renormalization-the-finite-record-sum-and-the-order-grading	fifteen	VII-6-hadron-spectrum-and-the-mesons	VII-6-D543708-w-hdom	The hadron spectrum and the mesons	19
+7-7	The running of the coupling	V-7-running-of-the-coupling	V-7-D539977-aszb-t1	fifteen	VII-7-quark-content-and-flavour	VII-7-D539669-udao-t1	Quark content and flavour	34
+7-8	The photon: docking, the join face and pair production	V-8-photon-docking-the-join-face-and-pair-production	V-8-D539949-phpk-t1	fifteen	VII-8-chiral-breaking-and-the-theta-angle	VII-8-chiral-breaking-and-the-theta-angle	Chiral breaking and the theta angle	33
+7-9	The Dirac equation at the dock	V-9-dirac-equation-at-the-dock	V-9-D538654-w-fcgd	twelve	VII-9-mesons-and-the-nucleon-at-the-cap	VII-9-mesons-and-the-nucleon-at-the-cap	The mesons and the nucleon at the cap	19
+7-10	The lepton ladder as hub assemblies	V-10-lepton-ladder-as-hub-assemblies	V-10-D540869-tthc-t1	fifteen				34
+7-11	The face dissolution, the leg count and the exponent	V-11-face-dissolution-the-leg-count-and-the-exponent	V-11-D543290-w-grfn	fifteen				0
+7-12	The Koide class	V-12-koide-class	V-12-koide-class	fifteen				17
+7-L	The instrument tables of this Part	VII-L-the-instrument-tables-at-the-repository	VII-L-the-instrument-tables-at-the-repository	fifteen				1
+8-1	The hub step as the weak interaction	VI-1-hub-step-as-the-weak-interaction	VI-1-hub-step-as-the-weak-interaction	fifteen	VIII-1-mass-unit-and-the-first-power	VIII-1-D543206-w-ofmc	The mass unit and the first power	105
+8-2	The W and the Z and their masses	VI-2-w-and-the-z-and-their-masses	VI-2-D540739-w-wzdk	fifteen	VIII-2-body-alone-office-rule	VIII-2-body-alone-office-rule	The body-alone office rule	54
+8-2b	The neutral lepton: the hub unit with its legs open	VI-2b-neutral-lepton-the-hub-unit-with-its-legs-open	VI-2b-neutral-lepton-the-hub-unit-with-its-legs-open	fifteen				14
+8-3	The doublets, handedness and parity violation	VI-3-doublets-handedness-and-parity-violation	VI-3-doublets-handedness-and-parity-violation	fifteen	VIII-3-next-terms-and-the-unstable-rows	VIII-3-next-terms-and-the-unstable-rows	The next terms and the unstable rows	51
+8-4	The charged and neutral currents	VI-4-charged-and-neutral-currents	VI-4-D538994-w-cchs	twelve	VIII-4-three-generations-as-attach-sites	VIII-4-three-generations-as-attach-sites	Three generations as attach sites	6
+8-5	The Fermi constant and the muon decay	VI-5-fermi-constant-and-the-muon-decay	VI-5-D538919-w-fcwo	twelve	VIII-5-unified-mass-readout	VIII-5-unified-mass-readout	The unified mass readout	3
+8-6	The weak angle	VI-6-weak-angle	VI-6-D539645-w-wbsq	fifteen				17
+8-7	Mixing, the washed overlap and the CKM block	VI-7-mixing-the-washed-overlap-and-the-ckm-block	VI-7-D543182-w-mxog	fifteen				4
+8-8	Beta decay and the boson widths	VI-8-beta-decay-and-the-boson-widths	VI-8-beta-decay-and-the-boson-widths	fifteen				4
+8-L	The instrument tables of this Part	VIII-L-the-instrument-tables-at-the-repository	VIII-L-the-instrument-tables-at-the-repository	fifteen				1
+9-1	Confinement as the dark-genre readability	VII-1-confinement-as-the-dark-genre-readability	VII-1-confinement-as-the-dark-genre-readability	fifteen	IX-1-decay-as-the-forward-edge-of-a-non-sink-the-move-graph-of-the-hub-step	IX-1-D538449-the-decay-board-release-one	Decay as the forward edge of a non-sink: the move graph of the hub step	17
+9-2	The strong coupling	VII-2-strong-coupling	VII-2-D543568-scds-t1	fifteen	IX-2-rate-as-the-washed-square-of-the-read-and-the-tick-unit	IX-2-D543234-w-nmvt	The rate as the washed square of the read and the tick unit	17
+9-3	Nucleon structure and the form factor	VII-3-nucleon-structure-and-the-form-factor	VII-3-nucleon-structure-and-the-form-factor	fifteen	IX-3-prefactor-as-the-tick-width	IX-3-prefactor-as-the-tick-width	The prefactor as the tick width	11
+9-4	The proton as a seeded sink	VII-4-proton-as-a-seeded-sink	VII-4-proton-as-a-seeded-sink	fifteen	IX-4-imbalance-readout-lifetimes-and-branching	IX-4-D543346-w-lftd	The imbalance readout, lifetimes and branching	15
+9-5	The proton-to-electron ratio: a candidate	VII-5-proton-to-electron-ratio-a-candidate	VII-5-proton-to-electron-ratio-a-candidate	fifteen	IX-5-alpha-decay	IX-5-alpha-decay	Alpha decay	16
+9-6	The hadron spectrum and the mesons	VII-6-hadron-spectrum-and-the-mesons	VII-6-D543708-w-hdom	fifteen	IX-6-binding-as-the-pairing-records-the-deuteron-and-the-alpha	IX-6-D539124-w-kshd	Binding as the pairing records: the deuteron and the alpha	24
+9-7	Quark content and flavour	VII-7-quark-content-and-flavour	VII-7-D539669-udao-t1	fifteen	IX-7-nuclear-rows-at-the-joined-seeded-web	IX-7-nuclear-rows-at-the-joined-seeded-web	The nuclear rows at the joined seeded web	21
+9-8	Chiral breaking and the theta angle	VII-8-chiral-breaking-and-the-theta-angle	VII-8-chiral-breaking-and-the-theta-angle	twelve	IX-8-fission-fusion-and-stellar-bounds	IX-8-fission-fusion-and-stellar-bounds	Fission, fusion and stellar bounds	2
+9-L	The instrument tables of this Part	IX-L-the-instrument-tables-at-the-repository	IX-L-the-instrument-tables-at-the-repository	fifteen				1
+10-0				none	X-0-D540399-the-two-two-census-at-every-placement	X-0-D542381-w-twpg	The (2,2) census at every placement	18
+10-1	The mass unit and the first power	VIII-1-mass-unit-and-the-first-power	VIII-1-D543206-w-ofmc	fifteen	X-1-curvature-as-the-graph-laplacian-washed-over-the-ladder	X-1-D541211-w-cvcf	Curvature as the graph Laplacian washed over the ladder	40
+10-2	The body-alone office rule	VIII-2-body-alone-office-rule	VIII-2-body-alone-office-rule	fifteen	X-2-field-equation-at-the-counting-face	X-2-D543764-w-flfw	The field equation at the counting face	27
+10-3	The next terms and the unstable rows	VIII-3-next-terms-and-the-unstable-rows	VIII-3-next-terms-and-the-unstable-rows	fifteen	X-3-horizon-at-every-rung-and-the-horizon-web-as-a-seeded-saturation	X-3-D543792-abrh-t1	The horizon at every rung and the horizon web as a seeded saturation	16
+10-4	Three generations as attach sites	VIII-4-three-generations-as-attach-sites	VIII-4-three-generations-as-attach-sites	fifteen	X-4-depth-the-growth-order-and-the-termination-wave	X-4-D544119-w-pwcd	Depth: the growth order and the termination wave	18
+10-5	The unified mass readout	VIII-5-unified-mass-readout	VIII-5-unified-mass-readout	fifteen	X-5-register-tower-and-the-metric	X-5-D542610-lgtw-t1	The register tower and the metric	25
+10-6	The Yukawa sector at the dressing leg	VI-7a-D541324-w-yklo	VI-7a-D541324-w-yklo	fifteen	X-6-cosmological-term-at-the-depth-exponent	X-6-D542582-w-tktu	The cosmological term at the depth exponent	31
+10-7	The two regimes of the office			none	X-7-dark-matter-as-the-dock-free-sinks	X-7-dark-matter-as-the-dock-free-sinks	Dark matter as the dock-free sinks	8
+10-9				none	X-9-gravitational-and-cosmological-constants-table	X-9-gravitational-and-cosmological-constants-table	The gravitational and cosmological constants table	4
+10-10				none	X-10-tick-scale-as-a-coupling-scale	X-10-tick-scale-as-a-coupling-scale	The tick scale as a coupling scale	2
+11-1	The Higgs: the closed hub read, its rows, its mass and its exponent	VI-10-higgs-the-closed-hub-read-its-rows-its-mass-and-its-exponent	VI-10-D540200-hqrt-t1	fifteen	XI-1-second-law-as-the-boundary-count-under-acts	XI-1-second-law-as-the-boundary-count-under-acts	The second law as the boundary count under acts	60
+11-2				none	XI-2-thermal-state	XI-2-thermal-state	The thermal state	1
+11-3				none	XI-3-ensembles-as-cap-readings	XI-3-ensembles-as-cap-readings	The ensembles as cap readings	3
+11-4				none	XI-4-order-parameter-at-the-stop-condition	XI-4-order-parameter-at-the-stop-condition	The order parameter at the stop condition	2
+11-5				none	XI-5-phase-transition-as-the-sink-class-change	XI-5-phase-transition-as-the-sink-class-change	The phase transition as the sink-class change	1
+11-6				none	XI-6-equilibrium-theorem	XI-6-equilibrium-theorem	The equilibrium theorem	3
+11-7				none	XI-7-thermodynamic-remainder-and-the-arrow	XI-7-thermodynamic-remainder-and-the-arrow	The thermodynamic remainder and the arrow	5
+12-1	Decay as the forward edge of a non-sink: the move graph of the hub step	IX-1-decay-as-the-forward-edge-of-a-non-sink-the-move-graph-of-the-hub-step	IX-1-D538449-the-decay-board-release-one	fifteen	XII-1-lattice-as-the-periodic-sink	XII-1-lattice-as-the-periodic-sink	The lattice as the periodic sink	22
+12-2	The rate as the washed square of the read and the tick unit	IX-2-rate-as-the-washed-square-of-the-read-and-the-tick-unit	IX-2-D543234-w-nmvt	fifteen	XII-2-band-and-the-dispersion	XII-2-band-and-the-dispersion	The band and the dispersion	15
+12-3	The prefactor as the tick width	IX-3-prefactor-as-the-tick-width	IX-3-prefactor-as-the-tick-width	fifteen	XII-3-chain-of-pairs-and-the-charged-periodic-sink	XII-3-chain-of-pairs-and-the-charged-periodic-sink	The chain of pairs and the charged periodic sink	8
+12-4	The imbalance readout, lifetimes and branching	IX-4-imbalance-readout-lifetimes-and-branching	IX-4-D543346-w-lftd	fifteen	XII-4-chern-number	XII-4-D538575-flxf-t1	The Chern number	12
+12-5	Alpha decay	IX-5-alpha-decay	IX-5-alpha-decay	twelve	XII-5-periodic-table-as-the-joined-electron-sinks	XII-5-periodic-table-as-the-joined-electron-sinks	The periodic table as the joined-electron sinks	2
+12-6	Binding as the pairing records: the deuteron and the alpha	IX-6-binding-as-the-pairing-records-the-deuteron-and-the-alpha	IX-6-D539124-w-kshd	fifteen	XII-6-atoms-the-hydrogen-probe-web-and-the-n-body-readout	XII-6-atoms-the-hydrogen-probe-web-and-the-n-body-readout	Atoms: the hydrogen probe web and the N-body readout	20
+12-7	The nuclear rows at the joined seeded web	IX-7-nuclear-rows-at-the-joined-seeded-web	IX-7-nuclear-rows-at-the-joined-seeded-web	fifteen				17
+12-L	The instrument tables of this Part	XII-L-the-instrument-tables-at-the-repository	XII-L-the-instrument-tables-at-the-repository	fifteen				1
+13-1	The second law as the boundary count under acts	XI-1-second-law-as-the-boundary-count-under-acts	XI-1-second-law-as-the-boundary-count-under-acts	fifteen	XIII-1-closure-as-the-computation	XIII-1-closure-as-the-computation	The closure as the computation	15
+13-2	The thermal state	XI-2-thermal-state	XI-2-thermal-state	fifteen	XIII-2-moves-as-a-gate-set-and-the-weyl-criterion	XIII-2-moves-as-a-gate-set-and-the-weyl-criterion	The moves as a gate set and the Weyl criterion	11
+13-3	The ensembles as cap readings	XI-3-ensembles-as-cap-readings	XI-3-ensembles-as-cap-readings	fifteen	XIII-3-hadamard-as-the-coherent-read	XIII-3-hadamard-as-the-coherent-read	The Hadamard as the coherent read	1
+13-4	The order parameter at the stop condition	XI-4-order-parameter-at-the-stop-condition	XI-4-order-parameter-at-the-stop-condition	fifteen	XIII-4-distillation-the-read-as-the-maximal-distillation-and-the-distillation-theorem	XIII-4-distillation-the-read-as-the-maximal-distillation-and-the-distillation-theorem	Distillation: the read as the maximal distillation and the distillation theorem	17
+13-5	The phase transition as the sink-class change	XI-5-phase-transition-as-the-sink-class-change	XI-5-phase-transition-as-the-sink-class-change	fifteen	XIII-5-cost-of-a-read-and-the-adiabatic-class	XIII-5-cost-of-a-read-and-the-adiabatic-class	The cost of a read and the adiabatic class	11
+13-6	The equilibrium theorem	XI-6-equilibrium-theorem	XI-6-equilibrium-theorem	twelve	XIII-6-holonomy-and-the-record-transport	XIII-6-D542825-w-olth	Holonomy and the record transport	1
+13-7	The thermodynamic remainder and the arrow	XI-7-thermodynamic-remainder-and-the-arrow	XI-7-thermodynamic-remainder-and-the-arrow	fifteen				5
+13-L	The instrument tables of this Part	XIII-L-the-instrument-tables-at-the-repository	XIII-L-the-instrument-tables-at-the-repository	fifteen				1
+14-1	The lattice as the periodic sink	XII-1-lattice-as-the-periodic-sink	XII-1-lattice-as-the-periodic-sink	fifteen				32
+14-2	The band and the dispersion	XII-2-band-and-the-dispersion	XII-2-band-and-the-dispersion	fifteen	XIV-2-walls-census-in-physics-terms	XIV-2-walls-census-in-physics-terms	The open results census in physics terms	12
+14-3	The chain of pairs and the charged periodic sink	XII-3-chain-of-pairs-and-the-charged-periodic-sink	XII-3-chain-of-pairs-and-the-charged-periodic-sink	fifteen				26
+14-4	The Chern number	XII-4-chern-number	XII-4-D538575-flxf-t1	twelve				1
+14-5	The periodic table as the joined-electron sinks	XII-5-periodic-table-as-the-joined-electron-sinks	XII-5-periodic-table-as-the-joined-electron-sinks	fifteen				27
+14-6	Atoms: the hydrogen probe web and the N-body readout	XII-6-atoms-the-hydrogen-probe-web-and-the-n-body-readout	XII-6-atoms-the-hydrogen-probe-web-and-the-n-body-readout	fifteen				23
+14-7				none	XIV-7-D536664-w-srda	XIV-7-what-remains-the-ungraded-page	The strong reading as a theorem of the rate law	1
+14-8				none				1
+14-L	The instrument tables of this Part	XIV-L-the-instrument-tables-at-the-repository	XIV-L-the-instrument-tables-at-the-repository	fifteen				1
+15-1	The closure as the computation	XIII-1-closure-as-the-computation	XIII-1-closure-as-the-computation	fifteen				38
+15-2	The moves as a gate set and the Weyl criterion	XIII-2-moves-as-a-gate-set-and-the-weyl-criterion	XIII-2-moves-as-a-gate-set-and-the-weyl-criterion	fifteen				10
+15-3	The Hadamard as the coherent read	XIII-3-hadamard-as-the-coherent-read	XIII-3-hadamard-as-the-coherent-read	fifteen				11
+15-4	Distillation: the read as the maximal distillation and the distillation theorem	XIII-4-distillation-the-read-as-the-maximal-distillation-and-the-distillation-theorem	XIII-4-distillation-the-read-as-the-maximal-distillation-and-the-distillation-theorem	fifteen				26
+15-5	The cost of a read and the adiabatic class	XIII-5-cost-of-a-read-and-the-adiabatic-class	XIII-5-cost-of-a-read-and-the-adiabatic-class	fifteen				16
+15-6	Holonomy and the record transport	XIII-6-holonomy-and-the-record-transport	XIII-6-D542825-w-olth	fifteen				30
+16-1	The results table re-tallied	XVI-1-the-results-table-re-tallied-at-the-cut	XVI-1-the-results-table-re-tallied-at-the-cut	fifteen				1
+16-2	The open results census in physics terms	XIV-2-walls-census-in-physics-terms	XIV-2-walls-census-in-physics-terms	fifteen				9
+16-4	The programs and their status			none				9
+16-7	What remains: the ungraded page	XIV-7-what-remains-the-ungraded-page	XIV-7-what-remains-the-ungraded-page	fifteen				69
+16-C	Conclusion	XIV-C-conclusion	XIV-C-conclusion	fifteen				0

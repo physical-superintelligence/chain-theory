@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 744.0 498.0" width="744" height="498" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="744.0" height="498.0" fill="#ffffff"/>
+<line x1="442.5" y1="246.0" x2="582.3" y2="145.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="512.4" y="190.8" font-size="13" fill="#555" text-anchor="middle">(4,3)</text>
+<line x1="442.5" y1="246.0" x2="584.3" y2="334.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="513.4" y="285.1" font-size="13" fill="#555" text-anchor="middle">(4,3)</text>
+<line x1="442.5" y1="246.0" x2="274.2" y2="232.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="358.4" y="234.2" font-size="13" fill="#555" text-anchor="middle">(4,3)</text>
+<line x1="526.6" y1="231.7" x2="582.3" y2="145.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="554.5" y="183.6" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="526.6" y1="231.7" x2="584.3" y2="334.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="555.5" y="278.0" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="526.6" y1="231.7" x2="274.2" y2="232.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="400.4" y="227.0" font-size="13" fill="#555" text-anchor="middle">(3,3)</text>
+<line x1="582.3" y1="145.6" x2="694.0" y2="46.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="638.1" y="90.8" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<line x1="584.3" y1="334.3" x2="691.3" y2="434.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="637.8" y="379.1" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<line x1="274.2" y1="232.3" x2="46.0" y2="227.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="160.1" y="224.9" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<circle cx="442.5" cy="246.0" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="442.5" y="251.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">H</text>
+<text x="442.5" y="279.0" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+<circle cx="526.6" cy="231.7" r="18" fill="#2e9e5b" stroke="#222" stroke-width="1.5"/>
+<text x="526.6" y="236.7" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">J</text>
+<text x="526.6" y="264.7" font-size="12" fill="#333" text-anchor="middle">d=3 adapter</text>
+<circle cx="582.3" cy="145.6" r="18" fill="#2e9e5b" stroke="#222" stroke-width="1.5"/>
+<text x="582.3" y="150.6" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Q1</text>
+<text x="582.3" y="178.6" font-size="12" fill="#333" text-anchor="middle">d=3 adapter</text>
+<circle cx="584.3" cy="334.3" r="18" fill="#2e9e5b" stroke="#222" stroke-width="1.5"/>
+<text x="584.3" y="339.3" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Q2</text>
+<text x="584.3" y="367.3" font-size="12" fill="#333" text-anchor="middle">d=3 adapter</text>
+<circle cx="274.2" cy="232.3" r="18" fill="#2e9e5b" stroke="#222" stroke-width="1.5"/>
+<text x="274.2" y="237.3" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Q3</text>
+<text x="274.2" y="265.3" font-size="12" fill="#333" text-anchor="middle">d=3 adapter</text>
+<circle cx="694.0" cy="46.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="694.0" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">n1</text>
+<text x="694.0" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="691.3" cy="434.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="691.3" y="439.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">n2</text>
+<text x="691.3" y="467.0" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+<circle cx="46.0" cy="227.5" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5"/>
+<text x="46.0" y="232.5" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">n3</text>
+<text x="46.0" y="260.5" font-size="12" fill="#333" text-anchor="middle">d=2 adapter</text>
+</svg>

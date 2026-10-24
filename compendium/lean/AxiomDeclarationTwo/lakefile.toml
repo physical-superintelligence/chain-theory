@@ -1,0 +1,10 @@
+name = "axiomDeclarationTwo"
+defaultTargets = ["AxiomDeclarationTwo"]
+
+[[require]]
+name = "actClosure"
+path = "../ActClosure"
+
+[[lean_lib]]
+name = "AxiomDeclarationTwo"
+leanOptions = { autoImplicit = false }

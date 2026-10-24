@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it and the Letter as below."
+title: "Chain Theory: the fine-structure-constant Letter, its Lean check, and a compendium of preliminary findings"
+type: software
+authors:
+  - family-names: "Wissner-Gross"
+    given-names: "A. D."
+    email: "alexwg@alexwg.org"
+    website: "https://www.alexwg.org"
+    orcid: "https://orcid.org/0000-0002-4818-7674"
+version: "0.1.0"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - "quantum information"
+  - "maximally entangled states"
+  - "fine-structure constant"
+  - "Lean 4"
+preferred-citation:
+  type: article
+  title: "A Parameter-Free Candidate for the Fine-Structure Constant from Entangled Qudits"
+  authors:
+    - family-names: "Wissner-Gross"
+      given-names: "A. D."
+      orcid: "https://orcid.org/0000-0002-4818-7674"
+  status: preprint
+references:
+  - type: report
+    title: "Chain Theory: Toward Fundamental Physics from Distilling Networks of Entangled Qudits"
+    abstract: "A compendium of preliminary findings: the program's results to date beyond the Letter, each graded as a theorem, a conditional theorem, or an open result. A working draft."
+    authors:
+      - family-names: "Wissner-Gross"
+        given-names: "A. D."
+        orcid: "https://orcid.org/0000-0002-4818-7674"
+    version: "0.1.0"
+    status: preprint

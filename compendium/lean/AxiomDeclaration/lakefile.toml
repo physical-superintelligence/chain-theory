@@ -1,0 +1,6 @@
+name = "axiomDeclaration"
+defaultTargets = ["AxiomDeclaration"]
+
+[[lean_lib]]
+name = "AxiomDeclaration"
+leanOptions = { autoImplicit = false }

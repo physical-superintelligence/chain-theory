@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 394.0 298.0" width="394" height="298" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="394.0" height="298.0" fill="#ffffff"/>
+<line x1="193.9" y1="139.3" x2="344.0" y2="234.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="268.9" y="181.7" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<line x1="193.9" y1="139.3" x2="46.0" y2="46.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="120.0" y="87.7" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<circle cx="46.0" cy="46.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="46.0" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Jd</text>
+<text x="46.0" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="193.9" cy="139.3" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="193.9" y="144.3" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">Q</text>
+<text x="193.9" y="172.3" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="344.0" cy="234.0" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="344.0" y="239.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">n</text>
+<text x="344.0" y="267.0" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+</svg>

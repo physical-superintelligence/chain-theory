@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1306 1414" width="1306" height="1414" font-family="Helvetica, Arial, sans-serif">
+<rect width="1306" height="1414" fill="#ffffff"/>
+<text x="40" y="54" font-size="30" font-weight="bold" fill="#111">The six genres of the link, and their conjectured sectors</text>
+<text x="40" y="86" font-size="16" fill="#333">A link is a maximally entangled pair of qudits, and its genre is the pair of its end dimensions, each two, three or four.</text>
+<rect x="40" y="106" width="22" height="16" rx="3" fill="#ffffff" stroke="#9aa3ad"/>
+<text x="72" y="119" font-size="15" fill="#222"><tspan font-weight="bold">Derived:</tspan> what follows from the axiom, the compendium's definitions and the read cap d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>≤ 6, which the alpha Letter obtains from one reading of the axiom's last clause.</text>
+<rect x="40" y="132" width="22" height="16" rx="3" fill="#fdf3d6" stroke="#c99700" stroke-dasharray="4 2"/>
+<text x="72" y="145" font-size="15" fill="#222"><tspan font-weight="bold">Conjectured:</tspan> the sector of physics each genre is taken to correspond to, and the particles named in its webs.</text>
+<circle cx="340.0" cy="200" r="9" fill="#3b7dd8"/>
+<text x="356.0" y="205" font-size="16" font-weight="bold" fill="#222">qubit, d = 2</text>
+<circle cx="49" cy="412.0" r="9" fill="#3b7dd8"/>
+<text x="40" y="440.0" font-size="16" font-weight="bold" fill="#222">qubit</text>
+<text x="40" y="460.0" font-size="15" fill="#444">d = 2</text>
+<circle cx="692.0" cy="200" r="9" fill="#2e9e5b"/>
+<text x="708.0" y="205" font-size="16" font-weight="bold" fill="#222">qutrit, d = 3</text>
+<circle cx="49" cy="780.0" r="9" fill="#2e9e5b"/>
+<text x="40" y="808.0" font-size="16" font-weight="bold" fill="#222">qutrit</text>
+<text x="40" y="828.0" font-size="15" fill="#444">d = 3</text>
+<circle cx="1044.0" cy="200" r="9" fill="#e0882b"/>
+<text x="1060.0" y="205" font-size="16" font-weight="bold" fill="#222">ququart, d = 4</text>
+<circle cx="49" cy="1148.0" r="9" fill="#e0882b"/>
+<text x="40" y="1176.0" font-size="16" font-weight="bold" fill="#222">ququart</text>
+<text x="40" y="1196.0" font-size="15" fill="#444">d = 4</text>
+<text x="222" y="176" font-size="13" fill="#666">the smaller end →</text>
+<text x="40" y="205" font-size="13" fill="#666">the larger end ↓</text>
+<rect x="150" y="252" width="54" height="1092" rx="10" fill="#eeeeee" stroke="#cccccc"/>
+<text x="177.0" y="205" font-size="16" font-weight="bold" fill="#888" text-anchor="middle">d = 1</text>
+<text transform="translate(183.0,798.0) rotate(-90)" font-size="15" fill="#777" text-anchor="middle">excluded at the axiom: a one-dimensional end is not entangled (theorem 2.9)</text>
+<rect x="222" y="252" width="340" height="356" rx="14" fill="#f2faf4"/>
+<text x="242" y="292" font-size="28" font-weight="bold" fill="#111111">(2,2)</text>
+<line x1="470" y1="282" x2="524" y2="282" stroke="#333333" stroke-width="2.5"/>
+<circle cx="470" cy="282" r="8" fill="#3b7dd8" stroke="#333333" stroke-width="1.5"/>
+<circle cx="524" cy="282" r="8" fill="#3b7dd8" stroke="#333333" stroke-width="1.5"/>
+<text x="242" y="314" font-size="13" fill="#3c4a40">qubit – qubit</text>
+<text x="242" y="344" font-size="15" font-weight="bold" fill="#111111">d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>= 4  ·  readable: one read fixes it</text>
+<text x="242" y="366" font-size="14" fill="#3c4a40">no acting central charge</text>
+<text x="242" y="386" font-size="14" fill="#3c4a40">57 records at two reads</text>
+<text x="242" y="406" font-size="13" fill="#3c4a40">Part VI of the compendium</text>
+<path d="M222,468 H562 V594 Q562,608 548,608 H236 Q222,608 222,594 Z" fill="#fdf3d6"/>
+<line x1="222" y1="468" x2="562" y2="468" stroke="#c99700" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="242" y="490" font-size="11.5" font-weight="bold" letter-spacing="1.6" fill="#8a6a00">CONJECTURED</text>
+<text x="242" y="516" font-size="22" font-weight="bold" font-style="italic" fill="#3f3000">Spacetime</text>
+<text x="242" y="558" font-size="13" fill="#5b4a20">In the webs: the qubit pair of every hub</text>
+<text x="242" y="576" font-size="13" fill="#5b4a20">assembly; the serial (2,2) chain is the</text>
+<text x="242" y="594" font-size="13" fill="#5b4a20">worldline, and the frame sits at a qubit end.</text>
+<rect x="222" y="252" width="340" height="356" rx="14" fill="none" stroke="#2e9e5b" stroke-width="2"/>
+<rect x="222" y="620" width="340" height="356" rx="14" fill="#f2faf4"/>
+<text x="242" y="660" font-size="28" font-weight="bold" fill="#111111">(3,2)</text>
+<line x1="470" y1="650" x2="524" y2="650" stroke="#333333" stroke-width="2.5"/>
+<circle cx="470" cy="650" r="10" fill="#2e9e5b" stroke="#333333" stroke-width="1.5"/>
+<circle cx="524" cy="650" r="8" fill="#3b7dd8" stroke="#333333" stroke-width="1.5"/>
+<text x="242" y="682" font-size="13" fill="#3c4a40">qutrit – qubit</text>
+<text x="242" y="712" font-size="15" font-weight="bold" fill="#111111">d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>= 6  ·  readable: one read fixes it</text>
+<text x="242" y="734" font-size="14" fill="#3c4a40">the central charge acts</text>
+<text x="242" y="754" font-size="14" fill="#3c4a40">172 records at two reads</text>
+<text x="242" y="774" font-size="13" fill="#3c4a40">Part VII of the compendium</text>
+<text x="242" y="798" font-size="13.5" font-weight="bold" fill="#111111">readout (79 + 48√2 + 42√3 + 3√6)/31104</text>
+<text x="242" y="816" font-size="13.5" font-weight="bold" fill="#111111">= 1/137.035 999 190…, checked in Lean</text>
+<path d="M222,836 H562 V962 Q562,976 548,976 H236 Q222,976 222,962 Z" fill="#fdf3d6"/>
+<line x1="222" y1="836" x2="562" y2="836" stroke="#c99700" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="242" y="858" font-size="11.5" font-weight="bold" letter-spacing="1.6" fill="#8a6a00">CONJECTURED</text>
+<text x="242" y="884" font-size="22" font-weight="bold" font-style="italic" fill="#3f3000">Electromagnetism</text>
+<text x="242" y="904" font-size="13.5" font-weight="bold" fill="#8a6a00">its readout is α(0): the Letter&#x27;s conjecture</text>
+<text x="242" y="926" font-size="13" fill="#5b4a20">In the webs: all five links of the photon</text>
+<text x="242" y="944" font-size="13" fill="#5b4a20">word; the docks of the electron, the muon and</text>
+<text x="242" y="962" font-size="13" fill="#5b4a20">the quarks; the read lines of the W and the Z.</text>
+<rect x="222" y="620" width="340" height="356" rx="14" fill="none" stroke="#2e9e5b" stroke-width="2"/>
+<rect x="574" y="620" width="340" height="356" rx="14" fill="#1f2733"/>
+<text x="594" y="660" font-size="28" font-weight="bold" fill="#ffffff">(3,3)</text>
+<line x1="822" y1="650" x2="876" y2="650" stroke="#ffffff" stroke-width="2.5"/>
+<circle cx="822" cy="650" r="10" fill="#2e9e5b" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="876" cy="650" r="10" fill="#2e9e5b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="594" y="682" font-size="13" fill="#c9d1dc">qutrit – qutrit</text>
+<text x="594" y="712" font-size="15" font-weight="bold" fill="#ffffff">d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>= 9  ·  dark: no single read fixes it</text>
+<text x="594" y="734" font-size="14" fill="#c9d1dc">no acting central charge</text>
+<text x="594" y="754" font-size="14" fill="#c9d1dc">392 or 412 records at two reads</text>
+<text x="594" y="774" font-size="13" fill="#c9d1dc">Part IX of the compendium</text>
+<path d="M574,836 H914 V962 Q914,976 900,976 H588 Q574,976 574,962 Z" fill="#3a3829"/>
+<line x1="574" y1="836" x2="914" y2="836" stroke="#d9b44a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="594" y="858" font-size="11.5" font-weight="bold" letter-spacing="1.6" fill="#f1c75b">CONJECTURED</text>
+<text x="594" y="884" font-size="22" font-weight="bold" font-style="italic" fill="#fff1c9">Strong interaction</text>
+<text x="594" y="926" font-size="13" fill="#ddd3b8">In the webs: the gluon word; the core triangle</text>
+<text x="594" y="944" font-size="13" fill="#ddd3b8">of the electron, muon and tau; the proton&#x27;s</text>
+<text x="594" y="962" font-size="13" fill="#ddd3b8">three junction legs.</text>
+<rect x="574" y="620" width="340" height="356" rx="14" fill="none" stroke="#1f2733" stroke-width="1"/>
+<rect x="222" y="988" width="340" height="356" rx="14" fill="#1f2733"/>
+<text x="242" y="1028" font-size="28" font-weight="bold" fill="#ffffff">(4,2)</text>
+<line x1="470" y1="1018" x2="524" y2="1018" stroke="#ffffff" stroke-width="2.5"/>
+<circle cx="470" cy="1018" r="12" fill="#e0882b" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="524" cy="1018" r="8" fill="#3b7dd8" stroke="#ffffff" stroke-width="1.5"/>
+<text x="242" y="1050" font-size="13" fill="#c9d1dc">ququart – qubit</text>
+<text x="242" y="1080" font-size="15" font-weight="bold" fill="#ffffff">d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>= 8  ·  dark: no single read fixes it</text>
+<text x="242" y="1102" font-size="14" fill="#c9d1dc">the central charge acts</text>
+<text x="242" y="1122" font-size="14" fill="#c9d1dc">417 records at two reads</text>
+<text x="242" y="1142" font-size="13" fill="#c9d1dc">Part VIII of the compendium</text>
+<path d="M222,1204 H562 V1330 Q562,1344 548,1344 H236 Q222,1344 222,1330 Z" fill="#3a3829"/>
+<line x1="222" y1="1204" x2="562" y2="1204" stroke="#d9b44a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="242" y="1226" font-size="11.5" font-weight="bold" letter-spacing="1.6" fill="#f1c75b">CONJECTURED</text>
+<text x="242" y="1252" font-size="22" font-weight="bold" font-style="italic" fill="#fff1c9">Weak interaction</text>
+<text x="242" y="1294" font-size="13" fill="#ddd3b8">In the webs: the legs of every hub assembly;</text>
+<text x="242" y="1312" font-size="13" fill="#ddd3b8">the adapter legs of the W and the Z.</text>
+<rect x="222" y="988" width="340" height="356" rx="14" fill="none" stroke="#1f2733" stroke-width="1"/>
+<rect x="574" y="988" width="340" height="356" rx="14" fill="#1f2733"/>
+<text x="594" y="1028" font-size="28" font-weight="bold" fill="#ffffff">(4,3)</text>
+<line x1="822" y1="1018" x2="876" y2="1018" stroke="#ffffff" stroke-width="2.5"/>
+<circle cx="822" cy="1018" r="12" fill="#e0882b" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="876" cy="1018" r="10" fill="#2e9e5b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="594" y="1050" font-size="13" fill="#c9d1dc">ququart – qutrit</text>
+<text x="594" y="1080" font-size="15" font-weight="bold" fill="#ffffff">d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>= 12  ·  dark: no single read fixes it</text>
+<text x="594" y="1102" font-size="14" fill="#c9d1dc">the central charge acts</text>
+<text x="594" y="1122" font-size="14" fill="#c9d1dc">777 or 797 records at two reads</text>
+<text x="594" y="1142" font-size="13" fill="#c9d1dc">Part X of the compendium</text>
+<path d="M574,1204 H914 V1330 Q914,1344 900,1344 H588 Q574,1344 574,1330 Z" fill="#3a3829"/>
+<line x1="574" y1="1204" x2="914" y2="1204" stroke="#d9b44a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="594" y="1226" font-size="11.5" font-weight="bold" letter-spacing="1.6" fill="#f1c75b">CONJECTURED</text>
+<text x="594" y="1252" font-size="22" font-weight="bold" font-style="italic" fill="#fff1c9">Yukawa sector</text>
+<text x="594" y="1294" font-size="13" fill="#ddd3b8">In the webs: the in-leg that joins each hub</text>
+<text x="594" y="1312" font-size="13" fill="#ddd3b8">assembly to its qutrit.</text>
+<rect x="574" y="988" width="340" height="356" rx="14" fill="none" stroke="#1f2733" stroke-width="1"/>
+<rect x="926" y="988" width="340" height="356" rx="14" fill="#1f2733"/>
+<text x="946" y="1028" font-size="28" font-weight="bold" fill="#ffffff">(4,4)</text>
+<line x1="1174" y1="1018" x2="1228" y2="1018" stroke="#ffffff" stroke-width="2.5"/>
+<circle cx="1174" cy="1018" r="12" fill="#e0882b" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1228" cy="1018" r="12" fill="#e0882b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="946" y="1050" font-size="13" fill="#c9d1dc">ququart – ququart</text>
+<text x="946" y="1080" font-size="15" font-weight="bold" fill="#ffffff">d<tspan font-size="10.5" dy="4.2">1</tspan><tspan dy="-4.2">d</tspan><tspan font-size="10.5" dy="4.2">2</tspan><tspan dy="-4.2"> </tspan>= 16  ·  dark: no single read fixes it</text>
+<text x="946" y="1102" font-size="14" fill="#c9d1dc">no acting central charge</text>
+<text x="946" y="1122" font-size="14" fill="#c9d1dc">1365 or 1455 records at two reads</text>
+<text x="946" y="1142" font-size="13" fill="#c9d1dc">Part XI of the compendium</text>
+<path d="M926,1204 H1266 V1330 Q1266,1344 1252,1344 H940 Q926,1344 926,1330 Z" fill="#3a3829"/>
+<line x1="926" y1="1204" x2="1266" y2="1204" stroke="#d9b44a" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="946" y="1226" font-size="11.5" font-weight="bold" letter-spacing="1.6" fill="#f1c75b">CONJECTURED</text>
+<text x="946" y="1252" font-size="22" font-weight="bold" font-style="italic" fill="#fff1c9">Higgs</text>
+<text x="946" y="1294" font-size="13" fill="#ddd3b8">In the webs: the Higgs word, a single (4,4)</text>
+<text x="946" y="1312" font-size="13" fill="#ddd3b8">pair; the hub-to-hub leg of the top and the</text>
+<text x="946" y="1330" font-size="13" fill="#ddd3b8">bottom.</text>
+<rect x="926" y="988" width="340" height="356" rx="14" fill="none" stroke="#1f2733" stroke-width="1"/>
+<rect x="215" y="245" width="354" height="738" rx="18" fill="none" stroke="#4a5568" stroke-width="3" stroke-dasharray="10 6"/>
+<text x="240" y="237" font-size="14" font-weight="bold" fill="#4a5568">the read cap, d<tspan font-size="9.8" dy="3.9">1</tspan><tspan dy="-3.9">d</tspan><tspan font-size="9.8" dy="3.9">2</tspan><tspan dy="-3.9"> </tspan>≤ 6, from a reading of the axiom</text>
+<text x="584" y="278" font-size="17" font-weight="bold" fill="#222">How to read this chart</text>
+<text x="584" y="306" font-size="14" fill="#444">Each cell is one genre, written with the larger end first; the upper triangle would</text>
+<text x="584" y="326" font-size="14" fill="#444">repeat the lower one.</text>
+<text x="584" y="354" font-size="14" fill="#444">The upper part of each cell is derived. Light cells are readable: under the read cap,</text>
+<text x="584" y="374" font-size="14" fill="#444">one read fixes the link. Dark cells are not: no single read fixes them.</text>
+<text x="584" y="402" font-size="14" fill="#444">The amber band is conjectured. It names the sector of physics each genre is taken to</text>
+<text x="584" y="422" font-size="14" fill="#444">correspond to, as in the compendium&#x27;s abstract, and where the genre appears in the</text>
+<text x="584" y="442" font-size="14" fill="#444">particle webs, whose identifications with particles are conjectures too.</text>
+<text x="584" y="470" font-size="14" fill="#444">Of the two readable genres only (3,2) has an acting central charge. Its readout is the</text>
+<text x="584" y="490" font-size="14" fill="#444">alpha Letter&#x27;s exact number, checked in Lean; that the number is α(0) is the Letter&#x27;s</text>
+<text x="584" y="510" font-size="14" fill="#444">conjecture, and the measured digits of α(0) test it.</text>
+<text x="40" y="1386" font-size="13" fill="#777">Chain Theory compendium, release 0.1. Records are those of a link read twice; where the compendium gives two spellings of the closure sector (Part X), both counts are shown.</text>
+</svg>

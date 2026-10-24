@@ -1,0 +1,379 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1430 1182" width="1430" height="1182" font-family="Helvetica, Arial, sans-serif">
+<rect width="1430" height="1182" fill="#ffffff"/>
+<text x="150" y="44" font-size="26" font-weight="bold" fill="#111">Conjectured webs for the Standard Model particles</text>
+<text x="150" y="72" font-size="14" fill="#444">Each web is a network the Chain Theory compendium (release 0.1) constructs: each site a qudit, each line a maximally entangled pair.</text>
+<text x="150" y="92" font-size="14" fill="#444">That a web is the named particle is a conjecture.</text>
+<text x="275.0" y="122" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">I</text>
+<text x="525.0" y="122" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">II</text>
+<text x="775.0" y="122" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">III</text>
+<text x="1025.0" y="122" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">gauge bosons</text>
+<text x="1275.0" y="122" font-size="15" font-weight="bold" fill="#333" text-anchor="middle">scalar</text>
+<text x="136" y="246.0" font-size="14" font-weight="bold" fill="#333" text-anchor="end">up-type quarks</text>
+<text x="136" y="478.0" font-size="14" font-weight="bold" fill="#333" text-anchor="end">down-type quarks</text>
+<text x="136" y="710.0" font-size="14" font-weight="bold" fill="#333" text-anchor="end">charged leptons</text>
+<text x="136" y="942.0" font-size="14" font-weight="bold" fill="#333" text-anchor="end">neutrinos</text>
+<rect x="156" y="136" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="170" y="167" font-size="24" font-weight="bold" fill="#111">u</text>
+<text x="208" y="164" font-size="13" fill="#444">up quark</text>
+<text x="380" y="344" font-size="11" fill="#666" text-anchor="end">3 sites, 2 links</text>
+<line x1="274.5" y1="254.7" x2="337.6" y2="294.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="274.5" y1="254.7" x2="212.4" y2="215.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="212.4" cy="215.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="274.5" cy="254.7" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="337.6" cy="294.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="406" y="136" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="420" y="167" font-size="24" font-weight="bold" fill="#111">c</text>
+<text x="458" y="164" font-size="13" fill="#444">charm quark</text>
+<text x="630" y="344" font-size="11" fill="#666" text-anchor="end">6 sites, 6 links</text>
+<line x1="562.3" y1="225.8" x2="487.6" y2="263.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="487.6" y1="263.2" x2="495.0" y2="314.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="487.6" y1="263.2" x2="445.6" y2="305.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="487.6" y1="263.2" x2="427.0" y2="228.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="495.0" y1="314.4" x2="445.6" y2="305.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="562.3" y1="225.8" x2="623.0" y2="195.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="487.6" cy="263.2" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="623.0" cy="195.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="562.3" cy="225.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="495.0" cy="314.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="445.6" cy="305.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="427.0" cy="228.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="656" y="136" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="670" y="167" font-size="24" font-weight="bold" fill="#111">t</text>
+<text x="708" y="164" font-size="13" fill="#444">top quark</text>
+<text x="880" y="344" font-size="11" fill="#666" text-anchor="end">9 sites, 10 links</text>
+<line x1="720.5" y1="248.8" x2="775.6" y2="235.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="775.6" y1="235.8" x2="757.1" y2="195.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="775.6" y1="235.8" x2="783.2" y2="192.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="757.1" y1="195.3" x2="783.2" y2="192.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="775.6" y1="235.8" x2="831.1" y2="273.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="831.1" y1="273.2" x2="873.0" y2="253.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="831.1" y1="273.2" x2="861.9" y2="306.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="831.1" y1="273.2" x2="838.1" y2="317.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="861.9" y1="306.0" x2="838.1" y2="317.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="720.5" y1="248.8" x2="677.0" y2="256.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="775.6" cy="235.8" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="831.1" cy="273.2" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="677.0" cy="256.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="720.5" cy="248.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="757.1" cy="195.3" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="783.2" cy="192.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="873.0" cy="253.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="861.9" cy="306.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="838.1" cy="317.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="156" y="368" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="170" y="399" font-size="24" font-weight="bold" fill="#111">d</text>
+<text x="208" y="396" font-size="13" fill="#444">down quark</text>
+<text x="380" y="576" font-size="11" fill="#666" text-anchor="end">7 sites, 7 links</text>
+<line x1="314.4" y1="502.4" x2="348.2" y2="546.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="314.4" y1="502.4" x2="237.3" y2="480.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="237.3" y1="480.1" x2="188.9" y2="508.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="237.3" y1="480.1" x2="177.0" y2="477.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="237.3" y1="480.1" x2="231.6" y2="428.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="188.9" y1="508.8" x2="177.0" y2="477.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="314.4" y1="502.4" x2="373.0" y2="485.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="237.3" cy="480.1" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="373.0" cy="485.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="314.4" cy="502.4" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="188.9" cy="508.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="177.0" cy="477.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="231.6" cy="428.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="348.2" cy="546.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="406" y="368" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="420" y="399" font-size="24" font-weight="bold" fill="#111">s</text>
+<text x="458" y="396" font-size="13" fill="#444">strange quark</text>
+<text x="630" y="576" font-size="11" fill="#666" text-anchor="end">10 sites, 11 links</text>
+<line x1="520.5" y1="499.5" x2="462.9" y2="472.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="462.9" y1="472.9" x2="427.0" y2="444.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="462.9" y1="472.9" x2="446.2" y2="424.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="462.9" y1="472.9" x2="427.6" y2="504.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="427.0" y1="444.8" x2="446.2" y2="424.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="520.5" y1="499.5" x2="582.5" y2="499.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="582.5" y1="499.4" x2="610.6" y2="537.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="582.5" y1="499.4" x2="623.0" y2="510.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="582.5" y1="499.4" x2="606.2" y2="454.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="610.6" y1="537.2" x2="623.0" y2="510.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="520.5" y1="499.5" x2="514.2" y2="549.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="462.9" cy="472.9" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="582.5" cy="499.4" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="514.2" cy="549.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="520.5" cy="499.5" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="427.0" cy="444.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="446.2" cy="424.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="427.6" cy="504.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="610.6" cy="537.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="623.0" cy="510.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="606.2" cy="454.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="656" y="368" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="670" y="399" font-size="24" font-weight="bold" fill="#111">b</text>
+<text x="708" y="396" font-size="13" fill="#444">bottom quark</text>
+<text x="880" y="576" font-size="11" fill="#666" text-anchor="end">13 sites, 15 links</text>
+<line x1="756.0" y1="516.6" x2="707.5" y2="519.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="707.5" y1="519.5" x2="677.0" y2="527.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="707.5" y1="519.5" x2="686.0" y2="544.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="707.5" y1="519.5" x2="686.6" y2="492.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="677.0" y1="527.6" x2="686.0" y2="544.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="756.0" y1="516.6" x2="804.8" y2="500.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="804.8" y1="500.3" x2="814.6" y2="532.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="804.8" y1="500.3" x2="828.4" y2="519.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="814.6" y1="532.2" x2="828.4" y2="519.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="804.8" y1="500.3" x2="841.4" y2="460.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="841.4" y1="460.3" x2="873.0" y2="464.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="841.4" y1="460.3" x2="860.5" y2="431.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="841.4" y1="460.3" x2="844.5" y2="424.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="860.5" y1="431.1" x2="844.5" y2="424.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="756.0" y1="516.6" x2="752.3" y2="549.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="707.5" cy="519.5" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="804.8" cy="500.3" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="841.4" cy="460.3" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="752.3" cy="549.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="756.0" cy="516.6" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="677.0" cy="527.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="686.0" cy="544.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="686.6" cy="492.3" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="814.6" cy="532.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="828.4" cy="519.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="873.0" cy="464.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="860.5" cy="431.1" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="844.5" cy="424.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="156" y="600" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="170" y="631" font-size="24" font-weight="bold" fill="#111">e</text>
+<text x="208" y="628" font-size="13" fill="#444">electron</text>
+<text x="380" y="808" font-size="11" fill="#666" text-anchor="end">9 sites, 10 links</text>
+<line x1="283.7" y1="723.0" x2="323.2" y2="693.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="323.2" y1="693.4" x2="332.9" y2="729.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="283.7" y1="723.0" x2="332.9" y2="729.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="222.1" y1="738.9" x2="283.7" y2="723.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="222.1" y1="738.9" x2="177.0" y2="740.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="222.1" y1="738.9" x2="185.4" y2="714.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="222.1" y1="738.9" x2="208.6" y2="781.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="177.0" y1="740.4" x2="185.4" y2="714.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="323.2" y1="693.4" x2="347.6" y2="656.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="332.9" y1="729.8" x2="373.0" y2="750.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="283.7" cy="723.0" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="323.2" cy="693.4" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="332.9" cy="729.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="222.1" cy="738.9" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="177.0" cy="740.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="185.4" cy="714.9" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="208.6" cy="781.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="347.6" cy="656.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="373.0" cy="750.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="406" y="600" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="420" y="631" font-size="24" font-weight="bold" fill="#111">μ</text>
+<text x="458" y="628" font-size="13" fill="#444">muon</text>
+<text x="630" y="808" font-size="11" fill="#666" text-anchor="end">13 sites, 15 links</text>
+<line x1="493.4" y1="706.1" x2="527.6" y2="720.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="527.6" y1="720.5" x2="515.4" y2="689.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="493.4" y1="706.1" x2="515.4" y2="689.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="453.0" y1="701.2" x2="493.4" y2="706.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="453.0" y1="701.2" x2="427.0" y2="703.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="453.0" y1="701.2" x2="432.7" y2="721.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="453.0" y1="701.2" x2="438.6" y2="672.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="427.0" y1="703.6" x2="432.7" y2="721.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="563.3" y1="749.4" x2="527.6" y2="720.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="563.3" y1="749.4" x2="575.9" y2="776.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="563.3" y1="749.4" x2="562.1" y2="781.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="563.3" y1="749.4" x2="597.1" y2="746.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="575.9" y1="776.7" x2="562.1" y2="781.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="521.7" y1="656.2" x2="515.4" y2="689.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="623.0" y1="746.8" x2="597.1" y2="746.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="493.4" cy="706.1" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="527.6" cy="720.5" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="515.4" cy="689.9" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="453.0" cy="701.2" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="563.3" cy="749.4" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="427.0" cy="703.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="432.7" cy="721.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="438.6" cy="672.1" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="575.9" cy="776.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="562.1" cy="781.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="597.1" cy="746.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="623.0" cy="746.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="521.7" cy="656.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="656" y="600" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="670" y="631" font-size="24" font-weight="bold" fill="#111">τ</text>
+<text x="708" y="628" font-size="13" fill="#444">tau</text>
+<text x="880" y="808" font-size="11" fill="#666" text-anchor="end">17 sites, 20 links</text>
+<line x1="764.6" y1="729.8" x2="781.0" y2="707.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="781.0" y1="707.8" x2="748.2" y2="707.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="764.6" y1="729.8" x2="748.2" y2="707.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="764.3" y1="761.4" x2="764.6" y2="729.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="764.3" y1="761.4" x2="761.0" y2="781.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="764.3" y1="761.4" x2="749.5" y2="776.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="764.3" y1="761.4" x2="781.6" y2="775.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="761.0" y1="781.8" x2="749.5" y2="776.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="816.6" y1="692.5" x2="781.0" y2="707.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="816.6" y1="692.5" x2="819.5" y2="673.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="816.6" y1="692.5" x2="831.1" y2="678.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="816.6" y1="692.5" x2="848.5" y2="692.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="819.5" y1="673.7" x2="831.1" y2="678.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="712.6" y1="692.7" x2="748.2" y2="707.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="712.6" y1="692.7" x2="690.5" y2="691.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="712.6" y1="692.7" x2="692.8" y2="701.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="712.6" y1="692.7" x2="693.4" y2="671.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="690.5" y1="691.2" x2="692.8" y2="701.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="873.0" y1="690.6" x2="848.5" y2="692.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="677.0" y1="656.2" x2="693.4" y2="671.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="764.6" cy="729.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="781.0" cy="707.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="748.2" cy="707.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="764.3" cy="761.4" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="816.6" cy="692.5" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="712.6" cy="692.7" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="761.0" cy="781.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="749.5" cy="776.9" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="781.6" cy="775.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="819.5" cy="673.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="831.1" cy="678.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="848.5" cy="692.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="690.5" cy="691.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="692.8" cy="701.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="693.4" cy="671.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="873.0" cy="690.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="677.0" cy="656.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<rect x="156" y="832" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="170" y="863" font-size="24" font-weight="bold" fill="#111">ν<tspan font-size="14" dy="5">1</tspan></text>
+<text x="208" y="860" font-size="13" fill="#444">neutrino, depth one</text>
+<text x="380" y="1040" font-size="11" fill="#666" text-anchor="end">5 sites, 5 links</text>
+<line x1="272.4" y1="939.7" x2="343.7" y2="894.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="272.4" y1="939.7" x2="367.0" y2="942.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="343.7" y1="894.7" x2="367.0" y2="942.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="272.4" y1="939.7" x2="233.0" y2="1007.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="272.4" y1="939.7" x2="183.0" y2="905.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="272.4" cy="939.7" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="343.7" cy="894.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="367.0" cy="942.3" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="233.0" cy="1007.3" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="183.0" cy="905.3" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<rect x="406" y="832" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="420" y="863" font-size="24" font-weight="bold" fill="#111">ν<tspan font-size="14" dy="5">2</tspan></text>
+<text x="458" y="860" font-size="13" fill="#444">neutrino, depth two</text>
+<text x="630" y="1040" font-size="11" fill="#666" text-anchor="end">10 sites, 11 links</text>
+<line x1="589.8" y1="954.0" x2="611.0" y2="912.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="589.8" y1="954.0" x2="623.0" y2="939.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="611.0" y1="912.5" x2="623.0" y2="939.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="589.8" y1="954.0" x2="539.9" y2="957.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="539.9" y1="957.9" x2="490.0" y2="962.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="490.0" y1="962.8" x2="463.4" y2="994.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="490.0" y1="962.8" x2="480.5" y2="1013.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="490.0" y1="962.8" x2="455.7" y2="920.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="463.4" y1="994.8" x2="480.5" y2="1013.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="589.8" y1="954.0" x2="609.7" y2="999.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="455.7" y1="920.0" x2="427.0" y2="888.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="589.8" cy="954.0" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="611.0" cy="912.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="623.0" cy="939.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="539.9" cy="957.9" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="490.0" cy="962.8" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="463.4" cy="994.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="480.5" cy="1013.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="455.7" cy="920.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="609.7" cy="999.4" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="427.0" cy="888.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<rect x="656" y="832" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="670" y="863" font-size="24" font-weight="bold" fill="#111">ν<tspan font-size="14" dy="5">3</tspan></text>
+<text x="708" y="860" font-size="13" fill="#444">neutrino, depth three</text>
+<text x="880" y="1040" font-size="11" fill="#666" text-anchor="end">15 sites, 17 links</text>
+<line x1="776.2" y1="937.8" x2="766.9" y2="914.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="776.2" y1="937.8" x2="777.6" y2="909.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="766.9" y1="914.6" x2="777.6" y2="909.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="776.2" y1="937.8" x2="748.5" y2="961.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="748.5" y1="961.1" x2="720.9" y2="983.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="720.9" y1="983.8" x2="710.2" y2="1007.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="720.9" y1="983.8" x2="719.9" y2="1013.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="720.9" y1="983.8" x2="696.5" y2="977.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="710.2" y1="1007.3" x2="719.9" y2="1013.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="776.2" y1="937.8" x2="807.4" y2="934.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="807.4" y1="934.8" x2="837.4" y2="931.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="837.4" y1="931.1" x2="854.1" y2="942.6" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="837.4" y1="931.1" x2="847.6" y2="956.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="837.4" y1="931.1" x2="857.0" y2="905.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="854.1" y1="942.6" x2="847.6" y2="956.7" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="696.5" y1="977.9" x2="677.0" y2="976.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="857.0" y1="905.7" x2="873.0" y2="888.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="776.2" cy="937.8" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="766.9" cy="914.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="777.6" cy="909.5" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="748.5" cy="961.1" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="720.9" cy="983.8" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="710.2" cy="1007.3" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="719.9" cy="1013.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="696.5" cy="977.9" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="807.4" cy="934.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="837.4" cy="931.1" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="854.1" cy="942.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="847.6" cy="956.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="857.0" cy="905.7" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="677.0" cy="976.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<circle cx="873.0" cy="888.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.0"/>
+<rect x="906" y="136" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="920" y="167" font-size="24" font-weight="bold" fill="#111">g</text>
+<text x="958" y="164" font-size="13" fill="#444">gluon</text>
+<text x="1130" y="344" font-size="11" fill="#666" text-anchor="end">4 sites, 3 links</text>
+<line x1="1102.3" y1="207.1" x2="1052.5" y2="237.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="1052.5" y1="237.9" x2="997.5" y2="272.1" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="997.5" y1="272.1" x2="947.7" y2="302.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="1102.3" cy="207.1" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="1052.5" cy="237.9" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="997.5" cy="272.1" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="947.7" cy="302.9" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<rect x="906" y="368" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="920" y="399" font-size="24" font-weight="bold" fill="#111">γ</text>
+<text x="958" y="396" font-size="13" fill="#444">photon</text>
+<text x="1130" y="576" font-size="11" fill="#666" text-anchor="end">6 sites, 5 links</text>
+<line x1="1123.0" y1="427.6" x2="1087.7" y2="449.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="1087.7" y1="449.0" x2="1046.0" y2="474.2" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="1046.0" y1="474.2" x2="1003.9" y2="499.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="1003.9" y1="499.8" x2="962.3" y2="525.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="962.3" y1="525.0" x2="927.0" y2="546.4" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="1123.0" cy="427.6" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="1087.7" cy="449.0" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="1046.0" cy="474.2" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="1003.9" cy="499.8" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="962.3" cy="525.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="927.0" cy="546.4" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<rect x="906" y="600" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="920" y="631" font-size="24" font-weight="bold" fill="#111">Z</text>
+<text x="958" y="628" font-size="13" fill="#444">Z boson</text>
+<text x="1130" y="808" font-size="11" fill="#666" text-anchor="end">5 sites, 4 links</text>
+<line x1="1117.0" y1="662.7" x2="1074.1" y2="689.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="1074.1" y1="689.0" x2="1024.8" y2="719.1" stroke="#c0392b" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="1024.8" y1="719.1" x2="976.4" y2="748.8" stroke="#c0392b" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="976.4" y1="748.8" x2="933.0" y2="775.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="1117.0" cy="662.7" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="1074.1" cy="689.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="1024.8" cy="719.1" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="976.4" cy="748.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="933.0" cy="775.3" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<rect x="906" y="832" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="920" y="863" font-size="24" font-weight="bold" fill="#111">W</text>
+<text x="958" y="860" font-size="13" fill="#444">W boson</text>
+<text x="1130" y="1040" font-size="11" fill="#666" text-anchor="end">5 sites, 4 links</text>
+<line x1="1117.0" y1="894.7" x2="1074.1" y2="921.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="1074.1" y1="921.0" x2="1024.8" y2="951.1" stroke="#c0392b" stroke-width="4.5" stroke-linecap="round"/>
+<line x1="1024.8" y1="951.1" x2="976.4" y2="980.8" stroke="#8a8a8a" stroke-width="1.6"/>
+<line x1="976.4" y1="980.8" x2="933.0" y2="1007.3" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="1117.0" cy="894.7" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="1074.1" cy="921.0" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="1024.8" cy="951.1" r="7.0" fill="#2e9e5b" stroke="#111" stroke-width="2.6"/>
+<circle cx="976.4" cy="980.8" r="6.0" fill="#3b7dd8" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/>
+<circle cx="933.0" cy="1007.3" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<rect x="1156" y="136" width="238" height="220" rx="10" fill="#fafafa" stroke="#d6d6d6"/>
+<text x="1170" y="167" font-size="24" font-weight="bold" fill="#111">H</text>
+<text x="1208" y="164" font-size="13" fill="#444">Higgs</text>
+<text x="1380" y="344" font-size="11" fill="#666" text-anchor="end">2 sites, 1 link</text>
+<line x1="1227.1" y1="286.1" x2="1322.9" y2="223.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<circle cx="1227.1" cy="286.1" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="1322.9" cy="223.9" r="8.0" fill="#e0882b" stroke="#333" stroke-width="1.0"/>
+<circle cx="158" cy="1092" r="8" fill="#3b7dd8" stroke="#333" stroke-width="1"/>
+<text x="174" y="1097" font-size="13" fill="#333">qubit (d = 2)</text>
+<circle cx="308" cy="1092" r="8" fill="#2e9e5b" stroke="#333" stroke-width="1"/>
+<text x="324" y="1097" font-size="13" fill="#333">qutrit (d = 3)</text>
+<circle cx="458" cy="1092" r="8" fill="#e0882b" stroke="#333" stroke-width="1"/>
+<text x="474" y="1097" font-size="13" fill="#333">ququart (d = 4)</text>
+<circle cx="608" cy="1092" r="8" fill="#ffffff" stroke="#111" stroke-width="2.6"/><text x="624" y="1097" font-size="13" fill="#333">core site</text>
+<circle cx="728" cy="1092" r="8" fill="#ffffff" stroke="#333" stroke-width="1.2" stroke-dasharray="3 2"/><text x="744" y="1097" font-size="13" fill="#333">read site</text>
+<line x1="840" y1="1092" x2="866" y2="1092" stroke="#c0392b" stroke-width="4.5" stroke-linecap="round"/><text x="874" y="1097" font-size="13" fill="#333">read line: the W is read along one line, the Z along two</text>
+<text x="150" y="1130" font-size="13" fill="#555">The W and the Z are one web; what distinguishes them is the read. The layouts are for legibility and carry no content.</text>
+<text x="150" y="1150" font-size="13" fill="#555">Each web&#x27;s standing line, naming the boxes it rests on, is in the compendium&#x27;s chapter of genres and webs.</text>
+</svg>

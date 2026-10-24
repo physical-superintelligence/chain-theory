@@ -1,0 +1,8 @@
+name = "actClosureCapFree"
+defaultTargets = ["ActClosureCapFree"]
+[[require]]
+name = "axiomDeclarationTwo"
+path = "../AxiomDeclarationTwo"
+[[lean_lib]]
+name = "ActClosureCapFree"
+leanOptions = { autoImplicit = false }

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2.0 -2.0 534.0 378.0" width="534" height="378" font-family="Helvetica, Arial, sans-serif">
+<rect x="-2.0" y="-2.0" width="534.0" height="378.0" fill="#ffffff"/>
+<line x1="484.0" y1="46.0" x2="381.9" y2="108.5" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="432.9" y="72.2" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<line x1="381.9" y1="108.5" x2="264.5" y2="180.3" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+<text x="323.2" y="139.4" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<line x1="264.5" y1="180.3" x2="149.2" y2="250.9" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="206.8" y="210.6" font-size="13" fill="#555" text-anchor="middle">(3,2)</text>
+<line x1="149.2" y1="250.9" x2="46.0" y2="314.0" stroke="#8a8a8a" stroke-width="1.6"/>
+<text x="97.6" y="277.4" font-size="13" fill="#555" text-anchor="middle">(4,2)</text>
+<circle cx="484.0" cy="46.0" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="484.0" y="51.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s1</text>
+<text x="484.0" y="79.0" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+<circle cx="381.9" cy="108.5" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="381.9" y="113.5" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s2</text>
+<text x="381.9" y="141.5" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="264.5" cy="180.3" r="18" fill="#2e9e5b" stroke="#111" stroke-width="3.5"/>
+<text x="264.5" y="185.3" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s3</text>
+<text x="264.5" y="213.3" font-size="12" fill="#333" text-anchor="middle">d=3 core</text>
+<circle cx="149.2" cy="250.9" r="18" fill="#3b7dd8" stroke="#222" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="149.2" y="255.9" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s4</text>
+<text x="149.2" y="283.9" font-size="12" fill="#333" text-anchor="middle">d=2 read</text>
+<circle cx="46.0" cy="314.0" r="18" fill="#e0882b" stroke="#222" stroke-width="1.5"/>
+<text x="46.0" y="319.0" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">s5</text>
+<text x="46.0" y="347.0" font-size="12" fill="#333" text-anchor="middle">d=4 adapter</text>
+</svg>

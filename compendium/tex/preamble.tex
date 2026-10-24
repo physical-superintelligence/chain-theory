@@ -1,0 +1,61 @@
+\RequirePackage{fix-cm}  % lets the title page use Computer Modern at any size
+\documentclass[11pt]{article}
+\DeclareUnicodeCharacter{00D7}{\ensuremath{\mathchar"2202}}
+\DeclareUnicodeCharacter{2124}{\ensuremath{\mathbb{Z}}}
+\DeclareUnicodeCharacter{2086}{\textsubscript{6}}
+\DeclareUnicodeCharacter{03B1}{\ensuremath{\alpha}}
+\usepackage[margin=1in,headheight=14pt]{geometry}
+\usepackage{fancyhdr}  % the running header carries the working-draft mark on every page
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\textsc{Chain Theory}}
+\fancyhead[R]{\footnotesize\textsc{Working Draft}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\fancypagestyle{plain}{\fancyhf{}\fancyhead[L]{\footnotesize\textsc{Chain Theory}}\fancyhead[R]{\footnotesize\textsc{Working Draft}}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0pt}}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{cite}  % sorts and compresses the numbers inside each citation
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}{Definition}
+\newcommand{\rosetta}[2]{\emph{#1} (#2)}
+\newcommand{\modref}[1]{Section~\ref{mod:#1}}
+\newcommand{\rowcite}[1]{}
+\setcounter{tocdepth}{1}
+\title{Chain Theory: Toward Fundamental Physics from Distilling Networks of Entangled Qudits}
+\author{A. D. Wissner-Gross\\\href{mailto:alexwg@alexwg.org}{\texttt{alexwg@alexwg.org}} \quad \url{https://www.alexwg.org}}
+\date{}
+\usepackage{amsthm}
+\usepackage{framed}
+\usepackage{xcolor}
+\usepackage{etoolbox}
+\theoremstyle{plain}
+\newtheorem{chtheorem}{Theorem}[section]
+\newtheorem{chconditional}[chtheorem]{Theorem}
+\newtheorem{chwall}[chtheorem]{Open result}
+\newtheorem{chdefinition}[chtheorem]{Definition}
+\newtheorem{chtable}[chtheorem]{Table}
+\newenvironment{chbox}[1]{\def\FrameCommand{\setlength{\fboxsep}{4pt}\setlength{\fboxrule}{.4pt}\fcolorbox{black}{#1}}\MakeFramed{\advance\hsize-\width\FrameRestore}}{\endMakeFramed}
+\BeforeBeginEnvironment{chtheorem}{\begin{chbox}{black!6}}\AfterEndEnvironment{chtheorem}{\end{chbox}}
+\BeforeBeginEnvironment{chconditional}{\begin{chbox}{black!6}}\AfterEndEnvironment{chconditional}{\end{chbox}}
+\BeforeBeginEnvironment{chwall}{\begin{chbox}{black!10}}\AfterEndEnvironment{chwall}{\end{chbox}}
+\BeforeBeginEnvironment{chdefinition}{\begin{chbox}{black!3}}\AfterEndEnvironment{chdefinition}{\end{chbox}}
+\BeforeBeginEnvironment{chtable}{\begin{chbox}{black!3}}\AfterEndEnvironment{chtable}{\end{chbox}}
+\newenvironment{chproof}[1][]{\begin{proof}[Derivation\ifx&#1&\else\ (#1)\fi]}{\end{proof}}
+\newenvironment{chbridge}{\par\medskip\noindent\textit{In the language of the literature.}\ }{\par\medskip}
+\newcommand{\chstanding}[1]{\par\noindent{\footnotesize\textit{Standing:} #1.}\par}
+\newcommand{\chdeps}[2]{\par\noindent{\footnotesize\textit{From} \ifblank{#1}{---}{#1.} \textit{Used by} \ifblank{#2}{---}{#2.}}\par}
+\makeatletter
+% three-digit section numbers in the contents need a wider number box than article's 1.5em
+\patchcmd{\l@section}{\setlength\@tempdima{1.5em}}{\setlength\@tempdima{2.3em}}{}{\PackageWarning{preamble}{l@section not patched}}
+\newcommand{\chdesig}[4]{\par\noindent{\footnotesize\textsf{Chapter #1}\def\ch@x{#2}\ifx\ch@x\@empty\else, \textsf{#2} in the module numbering\fi\def\ch@a{#3}\def\ch@b{#4}\ifx\ch@a\ch@b\else{} \textit{(sections \ref{mod:#3} to \ref{mod:#4})}\fi}\par\smallskip}
+\makeatother
+\newcommand{\chinstrument}[2]{\par\noindent{\footnotesize\textit{Instrument chapter of Part #1.}}\par}
+\newcommand{\chcert}[1]{\par\noindent\textit{Certified at the repository; #1 objects enumerated.}\par}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{adjustbox}  % wide tables, pictures and equations shrink to the line instead of running into the margin
+\setlength{\emergencystretch}{3em}
+\usepackage{float}
